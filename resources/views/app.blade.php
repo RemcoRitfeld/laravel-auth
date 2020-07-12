@@ -1011,11 +1011,11 @@
     <i class="fa fa-arrow-up"></i>
 </a>
 
-<!-- Preloader -->
-<div id="preloader">
-    <div class="loader" id="loader-1"></div>
-</div>
-<!-- End Preloader -->
+{{--<!-- Preloader -->--}}
+{{--<div id="preloader">--}}
+{{--    <div class="loader" id="loader-1"></div>--}}
+{{--</div>--}}
+{{--<!-- End Preloader -->--}}
 
 @include('partials.javascriptbundle')
 
