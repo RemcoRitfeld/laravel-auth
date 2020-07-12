@@ -272,7 +272,7 @@
                 <h2 class="section-title wow fadeInDown animated" data-wow-delay="0.3s">Aan de slag</h2>
                 <p></p>
                 <a class="btn btn-warning-filled std-btn btn-xlg btn-info-filled" href="{{URL::to('/flexwerkers')}}" role="button">Flexwerkers</a>
-                <a class="btn btn-dark std-btn btn-xlg btn-info-filled" href="{{URL::to('publicwebsite/bedrijven')}}" role="button">Bedrijven</a>
+                <a class="btn btn-dark std-btn btn-xlg btn-info-filled" href="{{URL::to('/bedrijven')}}" role="button">Bedrijven</a>
             </div>
         </div>
     </div>
