@@ -41,7 +41,7 @@
                     <span class="icon-menu"></span>
                     <span class="icon-menu"></span>
                 </button>
-                <a href="{{URL::to('/')}}" class="navbar-brand"><img src="{{asset('images\Logos\Horizontaal\Logo2kleurentekst\logo.bw.horizontaal_1.svg')}}" alt=""></a>
+                <a href="{{URL::to('/')}}" class="navbar-brand"><img src="{{secure_asset('images\Logos\Horizontaal\Logo2kleurentekst\logo.bw.horizontaal_1.svg')}}" alt=""></a>
             </div>
             <div class="collapse navbar-collapse" id="main-navbar">
                 <ul class="navbar-nav mr-auto w-100 justify-content-end clearfix">
@@ -151,7 +151,7 @@
                         </ol>
                         <div class="carousel-inner" role="listbox">
                             <div class="carousel-item active">
-                                <img src="{{asset('images\homepage\carousel\horeca.jpg')}}" alt="">
+                                <img src="{{secure_asset('images\homepage\carousel\horeca.jpg')}}" alt="">
                                 <div class="carousel-caption">
                                     <h3 class="slide-title animated fadeInDown"><span>Helium</span> - Bootstrap 4 UI Kit</h3>
                                     <h5 class="slide-text animated fadeIn">Lorem ipsum dolor sit amet, consectetuer adipiscing elit<br> Curabitur ultricies nisi Nam eget dui. Etiam rhoncus</h5>
@@ -160,7 +160,7 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="{{asset('images\homepage\carousel\logistiek.jpg')}}" alt="">
+                                <img src="{{secure_asset('images\homepage\carousel\logistiek.jpg')}}" alt="">
                                 <div class="carousel-caption">
                                     <h3 class="slide-title animated fadeInDown"><span>Cutting-edge</span> Features</h3>
                                     <h5 class="slide-text animated fadeIn">Lorem ipsum dolor sit amet, consectetuer adipiscing elit<br> Curabitur ultricies nisi Nam eget dui. Etiam rhoncus</h5>
@@ -168,7 +168,7 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="{{asset('images\homepage\carousel\keuken-1.jpg')}}" alt=""">
+                                <img src="{{secure_asset('images\homepage\carousel\keuken-1.jpg')}}" alt="">
                                 <div class="carousel-caption">
                                     <h3 class="slide-title animated fadeInDown"><span>100+</span> UI Blocks & Components</h3>
                                     <h5 class="slide-text animated fadeIn">Lorem ipsum dolor sit amet, consectetuer adipiscing elit<br> Curabitur ultricies nisi Nam eget dui. Etiam rhoncus</h5>
