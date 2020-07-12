@@ -8,7 +8,7 @@
     <title>BeeWorky</title>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" type="text/css" href="https://beeworky-beta.herokuapp.com/css/bootstrap.min.css" >
+    <link rel="stylesheet" type="text/css" href="{{URL::to('css/bootstrap.min.css')}}" >
     <!-- Font -->
     <link rel="stylesheet" type="text/css" href="{{asset('css/font-awesome.min.css')}}">
     <!-- Slicknav -->
