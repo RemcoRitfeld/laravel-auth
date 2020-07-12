@@ -43,7 +43,7 @@ return [
     'laravelBlockerTitleExtended'   => env('LARAVEL_BLOCKER_TITLE_EXTENDED', 'template_title'),
 
     // Switch Between bootstrap 3 `panel` and bootstrap 4 `card` classes
-    'blockerBootstapVersion'        => env('LARAVEL_BLOCKER_BOOTSTRAP_VERSION', '4'),
+    'blockerBootstrapVersion'        => env('LARAVEL_BLOCKER_BOOTSTRAP_VERSION', '4'),
 
     // Additional Card classes for styling -
     // See: https://getbootstrap.com/docs/4.0/components/card/#background-and-color
