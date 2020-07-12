@@ -338,7 +338,7 @@
             </div>
             <div class="plan-list">
                 <ul>
-                    <li><i class="fa fa-check"></i>2GB Disk Space</li>
+                    <li><i class="fa fa-check"></i>10 klussen per maand</li>
                     <li><i class="fa fa-check"></i>3 Sub Domains</li>
                     <li><i class="fa fa-check"></i>12 Database</li>
                     <li><i class="fa fa-check"></i>Unlimited Users</li>
