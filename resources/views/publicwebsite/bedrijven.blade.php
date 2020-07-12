@@ -327,14 +327,14 @@
     <div class="col-md-12">
         <h2 class="section-title wow fadeInDown animated" data-wow-delay="0.3s">Onze Prijzen</h2>
     </div>
-    <div class="col-lg-4 col-md-4 col-xs-12">
+    <div class="col-lg-3 col-md-6 col-xs-12">
         <div class="pricing-table-item">
             <div class="plan-name">
-                <h3>Basic</h3>
+                <h3>Basis</h3>
             </div>
             <div class="plan-price">
-                <div class="price-value">$ 10</div>
-                <div class="interval">per month</div>
+                <div class="price-value">€ 49,95</div>
+                <div class="interval">per maand</div>
             </div>
             <div class="plan-list">
                 <ul>
@@ -349,14 +349,14 @@
             </div>
         </div>
     </div>
-    <div class="col-lg-4 col-md-4 col-xs-12">
+    <div class="col-lg-3 col-md-6 col-xs-12">
         <div class="pricing-table-item table-active">
             <div class="plan-name">
-                <h3>Premium</h3>
+                <h3>Standaard</h3>
             </div>
             <div class="plan-price">
-                <div class="price-value">$ 69 </div>
-                <div class="interval">per month</div>
+                <div class="price-value">$ 89,95 </div>
+                <div class="interval">per maand</div>
             </div>
             <div class="plan-list">
                 <ul>
@@ -371,20 +371,41 @@
             </div>
         </div>
     </div>
-    <div class="col-lg-4 col-md-4 col-xs-12">
+    <div class="col-lg-3 col-md-6 col-xs-12">
         <div class="pricing-table-item">
             <div class="plan-name">
-                <h3>Unltimate</h3>
+                <h3>Geavanceerd</h3>
             </div>
             <div class="plan-price">
-                <div class="price-value">$ 79 </div>
-                <div class="interval">per month</div>
+                <div class="price-value">$ 119,95 </div>
+                <div class="interval">per maand</div>
             </div>
             <div class="plan-list">
                 <ul>
                     <li><i class="fa fa-check"></i>50GB Disk Space</li>
                     <li><i class="fa fa-check"></i>20 Sub Domains</li>
                     <li><i class="fa fa-check"></i>36 Database</li>
+                    <li><i class="fa fa-check"></i>Unlimited Users</li>
+                </ul>
+            </div>
+            <div class="plan-signup">
+                <a href="#" class="btn btn-common">Get Started</a>
+            </div>
+        </div>
+    </div>    <div class="col-lg-3 col-md-6 col-xs-12">
+        <div class="pricing-table-item">
+            <div class="plan-name">
+                <h3>Enterprise</h3>
+            </div>
+            <div class="plan-price">
+                <div class="price-value">€...</div>
+                <div class="interval">per maand</div>
+            </div>
+            <div class="plan-list">
+                <ul>
+                    <li><i class="fa fa-check"></i>2GB Disk Space</li>
+                    <li><i class="fa fa-check"></i>3 Sub Domains</li>
+                    <li><i class="fa fa-check"></i>12 Database</li>
                     <li><i class="fa fa-check"></i>Unlimited Users</li>
                 </ul>
             </div>

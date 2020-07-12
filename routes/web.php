@@ -133,3 +133,7 @@ Route::group(['middleware' => ['auth', 'activated', 'role:admin', 'activity', 't
 });
 
 Route::redirect('/php', '/phpinfo', 301);
+
+Route::get('/bedrijven', function (){
+    return view('/publicwebsite/bedrijven');
+});
