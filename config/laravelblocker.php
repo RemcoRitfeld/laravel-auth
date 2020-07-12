@@ -7,7 +7,7 @@ return [
     | Laravel Blocker Core Setting
     |--------------------------------------------------------------------------
     */
-    'laravelBlockerEnabled'         => env('LARAVEL_BLOCKER_ENABLED', true),
+    'laravelBlockerEnabled'         => env('LARAVEL_BLOCKER_ENABLED', false),
 
     /*
     |--------------------------------------------------------------------------
