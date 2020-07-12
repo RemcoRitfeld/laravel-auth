@@ -8,22 +8,22 @@
     <title>BeeWorky</title>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" type="text/css" href="{{URL::to('css/bootstrap.min.css')}}" >
+    <link rel="stylesheet" type="text/css" href="{{secure_asset('css/bootstrap.min.css')}}" >
     <!-- Font -->
-    <link rel="stylesheet" type="text/css" href="{{asset('css/font-awesome.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{secure_asset('css/font-awesome.min.css')}}">
     <!-- Slicknav -->
-    <link rel="stylesheet" type="text/css" href="{{asset('css/slicknav.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{secure_asset('css/slicknav.css')}}">
     <!-- Owl carousel -->
-    <link rel="stylesheet" type="text/css" href="{{asset('css/owl.carousel.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('css/owl.theme.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{secure_asset('css/owl.carousel.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{secure_asset('css/owl.theme.css')}}">
     <!-- Animate -->
-    <link rel="stylesheet" type="text/css" href="{{asset('css/animate.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{secure_asset('css/animate.css')}}">
     <!-- Main Style -->
-    <link rel="stylesheet" type="text/css" href="{{asset('css/main.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{secure_asset('css/main.css')}}">
     <!-- Extras Style -->
-    <link rel="stylesheet" type="text/css" href="{{asset('css/extras.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{secure_asset('css/extras.css')}}">
     <!-- Responsive Style -->
-    <link rel="stylesheet" type="text/css" href="{{asset('css/responsive.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{secure_asset('css/responsive.css')}}">
 
 </head>
 <body>
