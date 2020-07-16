@@ -8,22 +8,22 @@
     <title>BeeWorky</title>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" type="text/css" href="{{secure_asset('css/bootstrap.min.css')}}" >
+    <link rel="stylesheet" type="text/css" href="{{asset('css/bootstrap.min.css')}}" >
     <!-- Font -->
-    <link rel="stylesheet" type="text/css" href="{{secure_asset('css/font-awesome.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/font-awesome.min.css')}}">
     <!-- Slicknav -->
-    <link rel="stylesheet" type="text/css" href="{{secure_asset('css/slicknav.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/slicknav.css')}}">
     <!-- Owl carousel -->
-    <link rel="stylesheet" type="text/css" href="{{secure_asset('css/owl.carousel.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{secure_asset('css/owl.theme.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/owl.carousel.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/owl.theme.css')}}">
     <!-- Animate -->
-    <link rel="stylesheet" type="text/css" href="{{secure_asset('css/animate.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/animate.css')}}">
     <!-- Main Style -->
-    <link rel="stylesheet" type="text/css" href="{{secure_asset('css/main.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/main.css')}}">
     <!-- Extras Style -->
-    <link rel="stylesheet" type="text/css" href="{{secure_asset('css/extras.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/extras.css')}}">
     <!-- Responsive Style -->
-    <link rel="stylesheet" type="text/css" href="{{secure_asset('css/responsive.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/responsive.css')}}">
 
 </head>
 <body>
@@ -41,7 +41,7 @@
                     <span class="icon-menu"></span>
                     <span class="icon-menu"></span>
                 </button>
-                <a href="{{URL::to('/')}}" class="navbar-brand"><img src="{{secure_asset('images\Logos\Horizontaal\Logo2kleurentekst\logo.bw.horizontaal_1.svg')}}" alt=""></a>
+                <a href="{{URL::to('/')}}" class="navbar-brand"><img src="{{asset('images\Logos\Horizontaal\Logo2kleurentekst\logo.bw.horizontaal_1.svg')}}" alt=""></a>
             </div>
             <div class="collapse navbar-collapse" id="main-navbar">
                 <ul class="navbar-nav mr-auto w-100 justify-content-end clearfix">
@@ -78,6 +78,11 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">
                             Contact
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{URL::to('/login')}}">
+                            Login
                         </a>
                     </li>
                 </ul>
@@ -131,6 +136,11 @@
                     Contact
                 </a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{URL::to('/login')}}">
+                    Login
+                </a>
+            </li>
         </ul>
         <!-- Mobile Menu End -->
 
@@ -151,7 +161,7 @@
                         </ol>
                         <div class="carousel-inner" role="listbox">
                             <div class="carousel-item active">
-                                <img src="{{secure_asset('images\homepage\carousel\horeca.jpg')}}" alt="">
+                                <img src="{{asset('images\homepage\carousel\horeca.jpg')}}" alt="">
                                 <div class="carousel-caption">
                                     <h3 class="slide-title animated fadeInDown"><span>Helium</span> - Bootstrap 4 UI Kit</h3>
                                     <h5 class="slide-text animated fadeIn">Lorem ipsum dolor sit amet, consectetuer adipiscing elit<br> Curabitur ultricies nisi Nam eget dui. Etiam rhoncus</h5>
@@ -160,7 +170,7 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="{{secure_asset('images\homepage\carousel\logistiek.jpg')}}" alt="">
+                                <img src="{{asset('images\homepage\carousel\logistiek.jpg')}}" alt="">
                                 <div class="carousel-caption">
                                     <h3 class="slide-title animated fadeInDown"><span>Cutting-edge</span> Features</h3>
                                     <h5 class="slide-text animated fadeIn">Lorem ipsum dolor sit amet, consectetuer adipiscing elit<br> Curabitur ultricies nisi Nam eget dui. Etiam rhoncus</h5>
@@ -168,7 +178,7 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="{{secure_asset('images\homepage\carousel\keuken-1.jpg')}}" alt="">
+                                <img src="{{asset('images\homepage\carousel\keuken-1.jpg')}}" alt="">
                                 <div class="carousel-caption">
                                     <h3 class="slide-title animated fadeInDown"><span>100+</span> UI Blocks & Components</h3>
                                     <h5 class="slide-text animated fadeIn">Lorem ipsum dolor sit amet, consectetuer adipiscing elit<br> Curabitur ultricies nisi Nam eget dui. Etiam rhoncus</h5>
@@ -1011,11 +1021,11 @@
     <i class="fa fa-arrow-up"></i>
 </a>
 
-{{--<!-- Preloader -->--}}
-{{--<div id="preloader">--}}
-{{--    <div class="loader" id="loader-1"></div>--}}
-{{--</div>--}}
-{{--<!-- End Preloader -->--}}
+<!-- Preloader -->
+<div id="preloader">
+    <div class="loader" id="loader-1"></div>
+</div>
+<!-- End Preloader -->
 
 @include('partials.javascriptbundle')
 
