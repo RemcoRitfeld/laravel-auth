@@ -51,3 +51,6 @@ packages/
 npm-debug.log
 yarn-error.log
 
+# .htaccess
+www/*
+!www/.htaccess
