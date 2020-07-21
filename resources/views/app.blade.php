@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <title>BeeWorky</title>
@@ -70,7 +70,7 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="page-scroll" href="#">Aan de Slag <span><i class="mdi mdi-chevron-down"></i></span></a>
+                                    <a class="page-scroll" href="#">Waar wij voor staan <span><i class="mdi mdi-chevron-down"></i></span></a>
                                     <ul class="sub-menu">
                                         <li class="nav-item"><a href="tab.html">Tabs</a></li>
                                     </ul>
@@ -90,7 +90,8 @@
                                 <li class="nav-item">
                                     <a class="page-scroll" href="#">Account <span><i class="mdi mdi-chevron-down"></i></span></a>
                                     <ul class="sub-menu left-menu">
-                                        <li class="nav-item"><a href="contact-us.html">Contact Us 1</a></li>
+                                        <li class="nav-item"><a href="{{URL::to('/login')}}">Login</a></li>
+                                        <li class="nav-item"><a href="{{URL::to('/register')}}">Registreer</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -180,33 +181,34 @@
             <!-- Single About -->
             <div class="col-sm-8 col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".2s">
                 <div class="about-single">
-                    <i class="material-icons mdi mdi-layers"></i>
-                    <h2 class="subtitle">Goed opgeleleid & Kwalitatief personeel</h2>
-                    <p>Excepteur sint occaecat cupidatat non proidt, sunt in culpa qui.</p>
+                    <i class="material-icons mdi mdi-account-question"></i>
+                    <h2 class="subtitle">1. Je hebt interesse</h2>
+                    <p>Je hebt interesse gekregen om een WorkBee te worden. Dat is goed! wij hebben veel te bieden.</p>
                 </div>
             </div>
             <!-- Single About -->
             <div class="col-sm-8 col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".3s">
                 <div class="about-single">
-                    <i class="material-icons mdi mdi-cards-playing-outline"></i>
-                    <h2 class="subtitle">Goed Salaris!</h2>
-                    <p>Excepteur sint occaecat cupidatat non proidt, sunt in culpa qui.</p>
+                    <i class="material-icons mdi mdi-new-box"></i>
+                    <h2 class="subtitle">2. Je meldt je aan</h2>
+                    <p>Je hebt je aangemeldt en bent nu een WorkBee 🐝, gefeliciteerd! 🥳</p>
                 </div>
             </div>
             <!-- Single About -->
             <div class="col-sm-8 col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".4s">
                 <div class="about-single">
-                    <i class="material-icons mdi mdi-alarm-check"></i>
-                    <h2 class="subtitle">Een eerlijke en leuke werksfeer</h2>
-                    <p>Excepteur sint occaecat cupidatat non proidt, sunt in culpa qui.</p>
+                    <i class="material-icons mdi mdi-arrow-left-right"></i>
+                    <h2 class="subtitle">3. Je kiest een klus</h2>
+                    <p>Wij hebben een ruim aanbod aan klussen in de Horeca, Logistiek en in de Keuken.</p>
                 </div>
             </div>
             <!-- Single About -->
             <div class="col-sm-8 col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".5s">
                 <div class="about-single">
-                    <i class="material-icons mdi mdi-responsive"></i>
-                    <h2 class="subtitle">Trainingen & Workshops</h2>
-                    <p>Excepteur sint occaecat cupidatat non proidt, sunt in culpa qui.</p>
+                    <i class="material-icons mdi mdi-finance"></i>
+                    <h2 class="subtitle">4. Money!</h2>
+                    <p>Hier draait het natuurlijk allemaal om. Als WorkBee verdien je via BeeWorky
+                        <strong>minimaal €16,-</strong> per uur</p>
                 </div>
             </div>
         </div>
@@ -214,88 +216,127 @@
 </section>
 <!-- About Section End -->
 
-<!-- Welcome Section Start -->
-<section class="welcome-section section-padding section-dark">
+<!-- Tabs Section -->
+<section class="material-tabs-section section-padding">
     <div class="container">
         <div class="row">
             <!-- Section Titile -->
-            <div class="col-md-12 wow animated fadeInLeft" data-wow-delay=".2s">
+            <div class="col-md-12 material-title-section wow animated fadeInLeft" data-wow-delay=".2s">
                 <h1 class="section-title">Over Ons</h1>
             </div>
-            <div class="col-md-12 col-lg-7 col-xs-12">
-                <div class="Material-tab">
+        </div>
+
+        <div class="row mt-2 wow animated fadeInUp" data-wow-delay=".4s">
+            <div class="col-md-12">
+                <div class="Material-tab-default">
                     <!-- Nav tabs -->
-                    <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+                    <ul class="nav nav-tabs text-center" id="myTab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" data-toggle="tab" href="#startup" role="tab"><i class="mdi mdi-flash-outline"></i>
-                                <br> BeeWorky</a>
+                            <a class="nav-link active" data-toggle="tab" href="#home" role="tab">BeeWorky</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-toggle="tab" href="#business" role="tab"><i
-                                    class="mdi mdi-account-multiple-outline"></i> <br> Flexwerkers</a>
+                            <a class="nav-link" data-toggle="tab" href="#profile" role="tab">Flexwerkers</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-toggle="tab" href="#agency" role="tab"><i class="mdi mdi-all-inclusive"></i>
-                                <br> Klussen</a>
+                            <a class="nav-link" data-toggle="tab" href="#messages" role="tab">Klussen</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-toggle="tab" href="#saas" role="tab"><i class="mdi mdi-cloud-outline"></i> <br>
-                                Bedrijven</a>
+                            <a class="nav-link" data-toggle="tab" href="#settings" role="tab">Voor Bedrijven</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#payrolling" role="tab">Payrolling</a>
                         </li>
                     </ul>
+
                     <!-- Tab panes -->
                     <div class="tab-content">
-                        <div class="tab-pane fade show active" id="startup" role="tabpanel">
-                            <p>Wij zijn een jonge en hippe start-up die zich inzet voor het werken van de toekomst.
-                                We zetten ons in voor de behoeften van zowel opdrachtnemers als opdrachtgevers.
-                                Luisteren naar wat opdrachtnemers en opdrachtgevers willen, dat telt! <br><br>
-                                Op deze unieke manier kunnen
-                                wij opdrachtgevers middels het BeeWorky platform, voorzien van kwalitatief personeel en helpen wij
-                                enthousiaste opdrachtnemers aan opdrachten naar eigen keuze. <br><br>
-                                Tegelijkertijd staat de opdrachtnemer nooit stil, want bij BeeWorky wordt de nadruk gelegd op
-                                <strong>KWALITEIT</strong> en <strong>ONTWIKKELING</strong> en daarom bieden wij structureel gratis trainingen en workshops aan die
-                                een onderdeel vormen voor de BeeWorky community. <br><br>
-                                So what are you waiting for? Meldt je nu kosteloos aan op de website en vindt jouw ideale opdracht!
-                                #BeeWorky, get honey!</p>
+                        <div class="tab-pane fade show active" id="home" role="tabpanel">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="{{asset('images\Logos\Beeldmerk\beeldmerk.bw.svg')}}" alt="">
+                                </div>
+                                <div class="col-md-8">
+                                    <h2 class="subtitle">Wat is BeeWorky?</h2>
+                                    <p>Wij zijn een jonge en hippe start-up die zich inzet voor het werken van de toekomst.
+                                        We zetten ons in voor de behoeften van zowel opdrachtnemers als opdrachtgevers.
+                                        Luisteren naar wat opdrachtnemers en opdrachtgevers willen, dat telt! <br><br>
+                                        Op deze unieke manier kunnen
+                                        wij opdrachtgevers middels het BeeWorky platform, voorzien van kwalitatief personeel en helpen wij
+                                        enthousiaste opdrachtnemers aan opdrachten naar eigen keuze. <br><br>
+                                        Tegelijkertijd staat de opdrachtnemer nooit stil, want bij BeeWorky wordt de nadruk gelegd op
+                                        <strong>KWALITEIT</strong> en <strong>ONTWIKKELING</strong> en daarom bieden wij structureel gratis trainingen en workshops aan die
+                                        een onderdeel vormen voor de BeeWorky community. <br><br>
+                                        So what are you waiting for? Meldt je nu kosteloos aan op de website en vindt jouw ideale opdracht!
+                                        Get Honey 🍯, #BeeWorky!</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="tab-pane fade" id="business" role="tabpanel">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam nesciunt dolores quibusdam, officia
-                                sed mollitia, illo, quis, vel veniam officiis qui repellendus. Perferendis et, veritatis enim
-                                voluptatem libero consequuntur eveniet alias nesciunt fugit doloremque tempora id Lorem ipsum dolor
-                                sit amet, consectetur adipisicing elit.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, aut ut totam quam inventore
-                                suscipit ullam nostrum quisquam corrupti nesciunt voluptas necessitatibus, ab porro cupiditate optio
-                                mollitia, expedita, omnis? Quasi.</p>
+                        <div class="tab-pane fade" id="profile" role="tabpanel">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="assets/images/portfolio/work2.jpg" alt="">
+                                </div>
+                                <div class="col-md-8">
+                                    <h2 class="subtitle">Wat is een Flexwerker?</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam nesciunt dolores quibusdam,
+                                        officia sed mollitia, illo, quis, vel veniam officiis qui repellendus. Perferendis et, veritatis
+                                        enim voluptatem libero consequuntur eveniet alias nesciunt fugit doloremque tempora id, impedit
+                                        sed earum voluptatum itaque at. Expedita impedit facere magnam commodi sed dolorem adipisci.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, aut ut totam quam inventore
+                                        suscipit ullam nostrum quisquam corrupti nesciunt voluptas necessitatibus, ab porro cupiditate
+                                        optio mollitia, expedita, omnis? Quasi.</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="tab-pane fade" id="agency" role="tabpanel">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam nesciunt dolores quibusdam, officia
-                                sed mollitia, illo, quis, vel veniam officiis qui repellendus. Perferendis et, veritatis enim
-                                voluptatem libero consequuntur eveniet alias nesciunt fugit doloremque tempora id Lorem ipsum dolor
-                                sit amet, consectetur adipisicing elit.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, aut ut totam quam inventore
-                                suscipit ullam nostrum quisquam corrupti nesciunt voluptas necessitatibus, ab porro cupiditate optio
-                                mollitia, expedita, omnis? Quasi.</p>
+                        <div class="tab-pane fade" id="messages" role="tabpanel">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="assets/images/portfolio/work3.jpg" alt="">
+                                </div>
+                                <div class="col-md-8">
+                                    <h2 class="subtitle">Wat voor soort klussen zijn er?</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam nesciunt dolores quibusdam,
+                                        officia sed mollitia, illo, quis, vel veniam officiis qui repellendus. Perferendis et, veritatis
+                                        enim voluptatem libero consequuntur eveniet alias nesciunt fugit doloremque tempora id, impedit
+                                        sed earum voluptatum itaque at. Expedita impedit facere magnam commodi sed dolorem adipisci.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, aut ut totam quam inventore
+                                        suscipit ullam nostrum quisquam corrupti nesciunt voluptas necessitatibus, ab porro cupiditate
+                                        optio mollitia, expedita, omnis? Quasi.</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="tab-pane fade" id="saas" role="tabpanel">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam nesciunt dolores quibusdam, officia
-                                sed mollitia, illo, quis, vel veniam officiis qui repellendus. Perferendis et, veritatis enim
-                                voluptatem libero consequuntur eveniet alias nesciunt fugit doloremque tempora id Lorem ipsum dolor
-                                sit amet, consectetur adipisicing elit.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, aut ut totam quam inventore
-                                suscipit ullam nostrum quisquam corrupti nesciunt voluptas necessitatibus, ab porro cupiditate optio
-                                mollitia, expedita, omnis? Quasi.</p>
+                        <div class="tab-pane fade" id="settings" role="tabpanel">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="assets/images/portfolio/work4.jpg" alt="">
+                                </div>
+                                <div class="col-md-8">
+                                    <h2 class="subtitle">Waarom BeeWorky voor jouw bedrijf?</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam nesciunt dolores quibusdam,
+                                        officia sed mollitia, illo, quis, vel veniam officiis qui repellendus. Perferendis et, veritatis
+                                        enim voluptatem libero consequuntur eveniet alias nesciunt fugit doloremque tempora id, impedit
+                                        sed earum voluptatum itaque at. Expedita impedit facere magnam commodi sed dolorem adipisci.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, aut ut totam quam inventore
+                                        suscipit ullam nostrum quisquam corrupti nesciunt voluptas necessitatibus, ab porro cupiditate
+                                        optio mollitia, expedita, omnis? Quasi.</p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-12 col-lg-5 col-xs-12 welcome-column">
-                <div class="video-gallery">
-                    <img class="img-fluid" src="{{asset('images\homepage\commercialThumbnail.jpg')}}" alt="">
-                    <div class="overlay-gallery">
-                        <div class="icon-holder">
-                            <div class="icon">
-                                <a href="https://www.youtube.com/watch?v=zSb3F4-nO2M" class="video-popup wow fadeInUp"
-                                   data-wow-duration="1000ms" data-wow-delay="0.3s"><i class="mdi mdi-play-circle-outline"></i></a>
+                        <div class="tab-pane fade" id="payrolling" role="tabpanel">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="assets/images/portfolio/work4.jpg" alt="">
+                                </div>
+                                <div class="col-md-8">
+                                    <h2 class="subtitle">Waarom Payrolling?</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam nesciunt dolores quibusdam,
+                                        officia sed mollitia, illo, quis, vel veniam officiis qui repellendus. Perferendis et, veritatis
+                                        enim voluptatem libero consequuntur eveniet alias nesciunt fugit doloremque tempora id, impedit
+                                        sed earum voluptatum itaque at. Expedita impedit facere magnam commodi sed dolorem adipisci.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, aut ut totam quam inventore
+                                        suscipit ullam nostrum quisquam corrupti nesciunt voluptas necessitatibus, ab porro cupiditate
+                                        optio mollitia, expedita, omnis? Quasi.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -304,7 +345,95 @@
         </div>
     </div>
 </section>
-<!-- Welcome Section End -->
+<!-- Tabs Section End -->
+
+<!-- Services Section -->
+<section class="Material-service-section section-padding">
+    <div class="container">
+        <div class="row">
+            <!-- Section Titile -->
+            <div class="col-md-12 wow animated fadeInLeft" data-wow-delay=".2s">
+                <h1 class="section-title">Waar wij voor staan</h1>
+            </div>
+        </div>
+        <!-- Services Widget Section -->
+        <div class="row">
+            <!-- Service Widgets -->
+            <div class="col-md-6 col-lg-4 col-xl-4 single-service-widget wow animated fadeInUp" data-wow-delay=".3s">
+                <div class="media">
+                    <div class="media-left">
+                        <i class="material-icons pulse-shrink mdi mdi-arrange-send-backward"></i>
+                    </div>
+                    <div class="media-body">
+                        <h2 class="subtitle"><a href="#">Goed opgeleid & gewkalificeerd personeel</a></h2>
+                        <p>Excepteur sint occaecat cupi datat non proidt, sunt in culpa qui offi cia deserunt</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Service Widgets -->
+            <div class="col-md-6 col-lg-4 col-xl-4 single-service-widget wow animated fadeInUp" data-wow-delay=".4s">
+                <div class="media">
+                    <div class="media-left">
+                        <i class="material-icons pulse-shrink mdi mdi-code-tags-check"></i>
+                    </div>
+                    <div class="media-body">
+                        <h2 class="subtitle"><a href="#">Goed Salaris!</a></h2>
+                        <p>Excepteur sint occaecat cupi datat non proidt, sunt in culpa qui offi cia deserunt</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Service Widgets -->
+            <div class="col-md-6 col-lg-4 col-xl-4 single-service-widget wow animated fadeInUp" data-wow-delay=".5s">
+                <div class="media">
+                    <div class="media-left">
+                        <i class="material-icons pulse-shrink mdi mdi-grid"></i>
+                    </div>
+                    <div class="media-body">
+                        <h2 class="subtitle"><a href="#">Een Eerlijke werksfeer</a></h2>
+                        <p>Excepteur sint occaecat cupi datat non proidt, sunt in culpa qui offi cia deserunt</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Service Widgets -->
+            <div class="col-md-6 col-lg-4 col-xl-4 single-service-widget wow animated fadeInUp" data-wow-delay=".6s">
+                <div class="media">
+                    <div class="media-left">
+                        <i class="material-icons pulse-shrink mdi mdi-update"></i>
+                    </div>
+                    <div class="media-body">
+                        <h2 class="subtitle"><a href="#">Een leuke werksfeer</a></h2>
+                        <p>Excepteur sint occaecat cupi datat non proidt, sunt in culpa qui offi cia deserunt</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Service Widgets -->
+            <div class="col-md-6 col-lg-4 col-xl-4 single-service-widget wow animated fadeInUp" data-wow-delay=".7s">
+                <div class="media">
+                    <div class="media-left">
+                        <i class="material-icons pulse-shrink mdi mdi-speedometer"></i>
+                    </div>
+                    <div class="media-body">
+                        <h2 class="subtitle"><a href="#">Trainingen & Workshops</a></h2>
+                        <p>Excepteur sint occaecat cupi datat non proidt, sunt in culpa qui offi cia deserunt</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Service Widgets -->
+            <div class="col-md-6 col-lg-4 col-xl-4 single-service-widget wow animated fadeInUp" data-wow-delay=".8s">
+                <div class="media">
+                    <div class="media-left">
+                        <i class="material-icons pulse-shrink mdi mdi-shape-plus"></i>
+                    </div>
+                    <div class="media-body">
+                        <h2 class="subtitle"><a href="#">Flexibiliteit</a></h2>
+                        <p>Excepteur sint occaecat cupi datat non proidt, sunt in culpa qui offi cia deserunt</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Services Section End -->
 
 <!--Footer-->
 <footer class="page-footer center-on-small-only  pt-0 footer-widget-container">
@@ -425,7 +554,7 @@
                                     type="text" name="b_4dbefd9d3a1d6a570020b1e85_e16d098ae8" tabindex="-1"
                                     value=""></div>
                             <button type="submit" name="subscribe" id="subscribe"
-                                     class="btn btn-common pull-right">Meld je aan</button>
+                                     class="btn btn-common pull-right">Meld je aan!</button>
                             </div>
                         </form>
                         <!-- subscribe-form end  -->
@@ -435,7 +564,7 @@
                 <div class="widget">
                     <h5 class="widget-title">Handige Links</h5>
                     <ul class="unordered-list">
-                        <li><a href="#" class="nocolor">Het bestaan van BeeWorky</a></li>
+                        <li><a href="#" class="nocolor">Het ontstaan van BeeWorky</a></li>
                         <li><a href="#" class="nocolor">Voorwaarden</a></li>
                         <li><a href="#" class="nocolor">Privacy</a></li>
                         <li><a href="#" class="nocolor">Disclaimer</a></li>
