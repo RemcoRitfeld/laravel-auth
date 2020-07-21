@@ -18,3 +18,4 @@
 <script src="{{asset('js/jquery.vide.js')}}"></script>
 <script src="{{asset('js/jquery.magnific-popup.min.js')}}"></script>
 <script src="{{asset('js/main.js')}}"></script>
+<script src="{{asset('js\vendor\modernizr-3.7.1.min.js')}}"></script>

@@ -36,6 +36,19 @@
 </head>
 
 <body>
+<!-- FB Plugin -->
+<script>
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId            : 'your-app-id',
+            autoLogAppEvents : true,
+            xfbml            : true,
+            version          : 'v7.0'
+        });
+    };
+</script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+<!-- END of FB plugin -->
 
 <!-- Header Start -->
 <header id="header">
@@ -434,6 +447,259 @@
     </div>
 </section>
 <!-- Services Section End -->
+
+<!-- Portfolio Section -->
+<section class="Material-portfolio-section section-padding section-dark">
+    <div class="container">
+        <div class="row">
+            <!-- Section Titile -->
+            <div class="col-md-4 col-lg-4 col-xl-6  Material-title-section wow animated fadeInLeft" data-wow-delay=".2s">
+                <h1 class="section-title">Klussen</h1>
+            </div>
+            <!-- Section Quote -->
+            <div class="col-md-8 col-lg-8 col-xl-6  portfolio-nav mb-3 wow animated fadeInRight" data-wow-delay=".2s">
+                <ul class="nav nav-pills">
+                    <li><a class="filter active" data-filter="all">Alles</a></li>
+                    <li><a class="filter" data-filter=".business">Horeca</a></li>
+                    <li><a class="filter" data-filter=".development">Logistiek</a></li>
+                    <li><a class="filter" data-filter=".creative">Agrarisch</a></li>
+                    <li><a class="filter" data-filter=".more">Vrijwilligerswerk</a></li>
+                </ul>
+            </div>
+            <div class="portfolio-item-wrapper clearfix wow animated fadeInUp" data-wow-delay=".5s" id="Material-portfolio">
+                <!-- Single Portfolio Image -->
+                <div class="col-md-6 col-lg-4 col-xl-4 pb-4 mix business">
+                    <figure class="single-portfolio">
+                        <img class="img-fluid" src="assets/images/portfolio/work1.jpg" alt="">
+                        <figcaption class="hover-content">
+                            <a class="btn btn-round btn-fab btn-xs" href="portfolio-single.html"><i
+                                    class="material-icons mdi mdi-arrow-right"></i>
+                                <div class="ripple-container"></div>
+                            </a>
+                            <a href="portfolio-single.html">
+                                <h2 class="subtitle">Business Cards</h2>
+                            </a>
+                            <p>Asus Inc.</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- Single Portfolio Image -->
+                <div class="col-md-6 col-lg-4 col-xl-4 mix development more">
+                    <figure class="single-portfolio">
+                        <img class="img-fluid" src="assets/images/portfolio/work2.jpg" alt="">
+                        <figcaption class="hover-content">
+                            <a class="btn btn-round btn-fab btn-xs" href="portfolio-single.html"><i
+                                    class="material-icons mdi mdi-arrow-right"></i>
+                                <div class="ripple-container"></div>
+                            </a>
+                            <a href="portfolio-single.html">
+                                <h2 class="subtitle">Brochure Design</h2>
+                            </a>
+                            <p>Tesla Motors</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- Single Portfolio Image -->
+                <div class="col-md-6 col-lg-4 col-xl-4 mix creative business">
+                    <figure class="single-portfolio">
+                        <img class="img-fluid" src="assets/images/portfolio/work3.jpg" alt="">
+                        <figcaption class="hover-content">
+                            <a class="btn btn-round btn-fab btn-xs" href="portfolio-single.html"><i
+                                    class="material-icons mdi mdi-arrow-right"></i>
+                                <div class="ripple-container"></div>
+                            </a>
+                            <a href="portfolio-single.html">
+                                <h2 class="subtitle">Coffee Cup</h2>
+                            </a>
+                            <p>Starbucks USA</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- Single Portfolio Image -->
+                <div class="col-md-6 col-lg-4 col-xl-4 mix creative more development">
+                    <figure class="single-portfolio">
+                        <img class="img-fluid" src="assets/images/portfolio/work4.jpg" alt="">
+                        <figcaption class="hover-content">
+                            <a class="btn btn-round btn-fab btn-xs" href="portfolio-single.html"><i
+                                    class="material-icons mdi mdi-arrow-right"></i>
+                                <div class="ripple-container"></div>
+                            </a>
+                            <a href="portfolio-single.html">
+                                <h2 class="subtitle">Landing Page</h2>
+                            </a>
+                            <p>Uniliver, India</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- Single Portfolio Image -->
+                <div class="col-md-6 col-lg-4 col-xl-4 mix more development">
+                    <figure class="single-portfolio">
+                        <img class="img-fluid" src="assets/images/portfolio/work5.jpg" alt="">
+                        <figcaption class="hover-content">
+                            <a class="btn btn-round btn-fab btn-xs" href="portfolio-single.html"><i
+                                    class="material-icons mdi mdi-arrow-right"></i>
+                                <div class="ripple-container"></div>
+                            </a>
+                            <a href="portfolio-single.html">
+                                <h2 class="subtitle">Dashboard Design</h2>
+                            </a>
+                            <p>Linode Inc.</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- Single Portfolio Image -->
+                <div class="col-md-6 col-lg-4 col-xl-4 mix creative business">
+                    <figure class="single-portfolio">
+                        <img class="img-fluid" src="assets/images/portfolio/work6.jpg" alt="">
+                        <figcaption class="hover-content">
+                            <a class="btn btn-round btn-fab btn-xs" href="portfolio-single.html"><i
+                                    class="material-icons mdi mdi-arrow-right"></i>
+                                <div class="ripple-container"></div>
+                            </a>
+                            <a href="portfolio-single.html">
+                                <h2 class="subtitle">Re-Branding</h2>
+                            </a>
+                            <p>Alphabet Inc.</p>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4 wow animated fadeInUp" data-wow-delay=".3s">
+            <div class="col-md-12 text-center">
+                <a href="{{URL::to('/klussen')}}" class="animated4 btn btn-common" data-ripple-color="#000"><i
+                        class="material-icons mdi mdi-lightbulb-outline"></i> Alle klussen<div class="ripple-container"></div></a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Portfolio Section End -->
+
+<!-- Contact Us Section -->
+<section class="Material-contact-section section-padding">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="contact-title wow animated fadeInRight" data-wow-delay=".3s">Contact
+                </h1>
+            </div>
+        </div>
+        <div class="row justify-content-between mt-3">
+            <!-- Section Titile -->
+            <div class="col-md-12 col-lg-7 col-xs-12 contact-widget-section">
+                <div class="row">
+                    <!-- Single Contact Widget -->
+                    <div class="col-sm-6 wow fadeInUp animated" data-wow-delay=".2s">
+                        <div class="single-contact-widget">
+                            <i class="material-icons mdi mdi-map-marker"></i>
+                            <h3>Address</h3>
+                            <address>
+                                <p>4435 Berkshire Circle</p>
+                                <p>Knoxville</p>
+                                <p>TN 27912</p>
+                            </address>
+                        </div>
+                    </div>
+                    <!-- Single Contact Widget -->
+                    <div class="col-sm-6 wow fadeInUp animated" data-wow-delay=".3s">
+                        <div class="single-contact-widget">
+                            <i class="material-icons mdi mdi-phone"></i>
+                            <h3>Phone</h3>
+                            <address>
+                                <p>879-890-9767</p>
+                                <p>234-890-1213</p>
+                            </address>
+                        </div>
+                    </div>
+                    <!-- Single Contact Widget -->
+                    <div class="col-sm-6 wow fadeInUp animated" data-wow-delay=".4s">
+                        <div class="single-contact-widget">
+                            <i class="material-icons mdi mdi-email-open"></i>
+                            <h3>Email</h3>
+                            <address>
+                                <p>mail@Material.com</p>
+                                <p>support@Material.com</p>
+                            </address>
+                        </div>
+                    </div>
+                    <!-- Single Contact Widget -->
+                    <div class="col-sm-6 wow fadeInUp animated" data-wow-delay=".5s">
+                        <div class="single-contact-widget">
+                            <i class="material-icons mdi mdi-clock"></i>
+                            <h3>Opening Hours</h3>
+                            <address>
+                                <p>Mon - Fri: 8 AM - 3 PM</p>
+                                <p>Sat: 8 AM - 12 PM</p>
+                                <p>Sun: Closed</p>
+                            </address>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- contact form -->
+            <div class="col-md-12 col-lg-5 col-xs-12 wow fadeInUp animated" data-wow-delay=".4s">
+                <form class="shake" role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator">
+                    <!-- Name -->
+                    <div class="form-group label-floating">
+                        <label class="control-label" for="name">Name</label>
+                        <input class="form-control" id="name" type="text" name="name" required
+                               data-error="Please enter your name">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <!-- email -->
+                    <div class="form-group label-floating">
+                        <label class="control-label" for="email">Email</label>
+                        <input class="form-control" id="email" type="email" name="email" required
+                               data-error="Please enter your Email">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <!-- Subject -->
+                    <div class="form-group label-floating">
+                        <label for="msgSubject" class="control-label">Subject</label>
+                        <input class="form-control" id="msg_subject" type="text" name="subject" required
+                               data-error="Please enter your message subject">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <!-- Message -->
+                    <div class="form-group label-floating">
+                        <label for="message" class="control-label">Message</label>
+                        <textarea class="form-control" rows="8" id="message" name="message" required
+                                  data-error="Write your message"></textarea>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <!-- Form Submit -->
+                    <div class="form-submit mt-4">
+                        <button class="btn btn-common" type="submit" id="form-submit"><i
+                                class="material-icons mdi mdi-message-outline"></i> Send Message</button>
+                        <div id="msgSubmit" class="h3 text-center hidden"></div>
+                        <div class="clearfix"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</section>
+<!-- Contact Us Section End -->
+
+<!-- Call to action Section -->
+<section class="call-to-action-section">
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-md-8 col-lg-8 col-xs-12 text-left wow animated fadeInLeft" data-wow-delay=".2s">
+                <h1>Chat live met ons!</h1>
+                <h3>Wij zijn te bereiken op FB Messenger.</h3>
+            </div>
+            <div class="col-md-4 col-lg-4 col-xs-12 mt-4 text-right wow animated fadeInRight" data-wow-delay=".3s">
+                <a href="javascript:void(0)" class="animated4 btn btn-common"><i class="material-icons mdi mdi-phone"></i>
+                    Contact us</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Call to action Section End -->
 
 <!--Footer-->
 <footer class="page-footer center-on-small-only  pt-0 footer-widget-container">
