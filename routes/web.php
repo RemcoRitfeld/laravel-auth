@@ -134,6 +134,26 @@ Route::group(['middleware' => ['auth', 'activated', 'role:admin', 'activity', 't
 
 Route::redirect('/php', '/phpinfo', 301);
 
+Route::get('/flexwerkers', function (){
+    return view('/publicwebsite/flexwerkers');
+});
+
 Route::get('/bedrijven', function (){
     return view('/publicwebsite/bedrijven');
+});
+
+Route::get('/verhaal', function (){
+    return view('/publicwebsite/verhaal');
+});
+
+Route::get('/voorwaarden', function (){
+    return view('/publicwebsite/voorwaarden');
+});
+
+Route::get('/privacy', function (){
+    return view('/publicwebsite/privacy');
+});
+
+Route::get('/disclaimer', function (){
+    return view('/publicwebsite/disclaimer');
 });
