@@ -28,7 +28,7 @@
                 <div class="col-lg-12">
                     <nav class="navbar navbar-expand-lg">
                         <a class="navbar-brand" href="index.html">
-                            <img src="{{asset('images\Logos\Horizontaal\Logo2kleurentekst\logo.bw.horizontaal_1@2x.png')}}" alt="Logo">
+                            <img src="{{secure_asset('images\Logos\Horizontaal\Logo2kleurentekst\logo.bw.horizontaal_1@2x.png')}}" alt="Logo">
                         </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -105,7 +105,7 @@
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img class="d-block w-100" src="{{asset('images\homepage\carousel\keuken1.jpg')}}" alt="First slide">
+            <img class="d-block w-100" src="{{secure_asset('images\homepage\carousel\keuken1.jpg')}}" alt="First slide">
             <div class="carousel-caption second-slider d-md-block text-left">
                 <h1 class="wow fadeInLeft hero-heading" data-wow-delay="700ms">Keuken</h1>
                 <h5 class="wow fadeInLeft hero-sub-heading" data-wow-delay="500ms">Werk als flexwerker in de keuken</h5>
@@ -126,7 +126,7 @@
             </div>
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" src="{{asset('images\homepage\carousel\logistiek.jpg')}}" alt="Third slide">
+            <img class="d-block w-100" src="{{secure_asset('images\homepage\carousel\logistiek.jpg')}}" alt="Third slide">
             <div class="carousel-caption second-slider d-md-block text-left">
                 <h1 class="wow fadeInDown hero-heading" data-wow-delay="700ms">Logistiek</h1>
                 <h5 class="fadeInDown wow hero-sub-heading" data-wow-delay="500ms">Als flexwerker werken in de logistiek? lees verder!</h5>
@@ -227,7 +227,7 @@
                         <div class="tab-pane fade show active" id="home" role="tabpanel">
                             <div class="row">
                                 <div class="col-md-4">
-                                    <img src="{{asset('images\Logos\Beeldmerk\beeldmerk.bw.png')}}" alt="">
+                                    <img src="{{secure_asset('images\Logos\Beeldmerk\beeldmerk.bw.png')}}" alt="">
                                 </div>
                                 <div class="col-md-8">
                                     <h2 class="subtitle">Wat is BeeWorky?</h2>
