@@ -10,25 +10,25 @@
     <title>BeeWorky</title>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('css/bootstrap.min.css')}}">
     <!-- Meterial Icon CSS -->
-    <link rel="stylesheet" href="{{asset('css/materialdesignicons.min.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('css/materialdesignicons.min.css')}}">
     <!-- Material CSS -->
-    <link rel="stylesheet" href="{{asset('css/material.min.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('css/material.min.css')}}">
     <!-- Ripples CSS -->
-    <link rel="stylesheet" href="{{asset('css/ripples.min.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('css/ripples.min.css')}}">
     <!-- Owl Carousel CSS -->
-    <link rel="stylesheet" href="{{asset('css/owl.carousel.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('css/owl.carousel.css')}}">
     <!-- Magnific Popup -->
-    <link rel="stylesheet" href="{{asset('css/magnific-popup.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('css/magnific-popup.css')}}">
     <!-- Animate CSS -->
-    <link rel="stylesheet" href="{{asset('css/animate.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('css/animate.css')}}">
     <!-- Style CSS -->
-    <link rel="stylesheet" href="{{asset('css/style.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('css/style.css')}}">
     <!-- Responsive CSS -->
-    <link rel="stylesheet" href="{{asset('css/responsive.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('css/responsive.css')}}">
     <!-- Color CSS Styles (default website layout color) -->
-    <link rel="stylesheet" type="text/css" href="{{asset('css/colors/blue.css')}}" media="screen">
+    <link rel="stylesheet" type="text/css" href="{{secure_asset('css/colors/blue.css')}}" media="screen">
 
     <!-- Google Font
     @import url("https://fonts.googleapis.com/css?family=Rubik:500,700|Roboto:400,600");
@@ -58,7 +58,7 @@
                 <div class="col-lg-12">
                     <nav class="navbar navbar-expand-lg">
                         <a class="navbar-brand" href="index.html">
-                            <img src="{{asset('images\Logos\Horizontaal\Logo2kleurentekst\logo.bw.horizontaal_1@2x.png')}}" alt="Logo">
+                            <img src="{{secure_asset('images\Logos\Horizontaal\Logo2kleurentekst\logo.bw.horizontaal_1@2x.png')}}" alt="Logo">
                         </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -144,7 +144,7 @@
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img class="d-block w-100" src="{{asset('images\homepage\carousel\keuken1.jpg')}}" alt="First slide">
+            <img class="d-block w-100" src="{{secure_asset('images\homepage\carousel\keuken1.jpg')}}" alt="First slide">
             <div class="carousel-caption second-slider d-md-block text-left">
                 <h1 class="wow fadeInLeft hero-heading" data-wow-delay="700ms">Keuken</h1>
                 <h5 class="wow fadeInLeft hero-sub-heading" data-wow-delay="500ms">Werk als flexwerker in de keuken</h5>
@@ -165,7 +165,7 @@
             </div>
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" src="{{asset('images\homepage\carousel\logistiek.jpg')}}" alt="Third slide">
+            <img class="d-block w-100" src="{{secure_asset('images\homepage\carousel\logistiek.jpg')}}" alt="Third slide">
             <div class="carousel-caption second-slider d-md-block text-left">
                 <h1 class="wow fadeInDown hero-heading" data-wow-delay="700ms">Logistiek</h1>
                 <h5 class="fadeInDown wow hero-sub-heading" data-wow-delay="500ms">Als flexwerker werken in de logistiek? lees verder!</h5>
@@ -266,7 +266,7 @@
                         <div class="tab-pane fade show active" id="home" role="tabpanel">
                             <div class="row">
                                 <div class="col-md-4">
-                                    <img src="{{asset('images\Logos\Beeldmerk\beeldmerk.bw.svg')}}" alt="">
+                                    <img src="{{secure_asset('images\Logos\Beeldmerk\beeldmerk.bw.svg')}}" alt="">
                                 </div>
                                 <div class="col-md-8">
                                     <h2 class="subtitle">Wat is BeeWorky?</h2>
