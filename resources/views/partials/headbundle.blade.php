@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
 <!-- Bootstrap CSS -->
-<link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
+<link rel="stylesheet" href="{{URL::to('css/bootstrap.min.css')}}">
 <!-- Meterial Icon CSS -->
 <link rel="stylesheet" href="{{asset('css/materialdesignicons.min.css')}}">
 <!-- Material CSS -->
