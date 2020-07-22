@@ -1,38 +1,8 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <!-- Required meta tags -->
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <title>BeeWorky</title>
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
-    <!-- Meterial Icon CSS -->
-    <link rel="stylesheet" href="{{asset('css/materialdesignicons.min.css')}}">
-    <!-- Material CSS -->
-    <link rel="stylesheet" href="{{asset('css/material.min.css')}}">
-    <!-- Ripples CSS -->
-    <link rel="stylesheet" href="{{asset('css/ripples.min.css')}}">
-    <!-- Owl Carousel CSS -->
-    <link rel="stylesheet" href="{{asset('css/owl.carousel.css')}}">
-    <!-- Magnific Popup -->
-    <link rel="stylesheet" href="{{asset('css/magnific-popup.css')}}">
-    <!-- Animate CSS -->
-    <link rel="stylesheet" href="{{asset('css/animate.css')}}">
-    <!-- Style CSS -->
-    <link rel="stylesheet" href="{{asset('css/style.css')}}">
-    <!-- Responsive CSS -->
-    <link rel="stylesheet" href="{{asset('css/responsive.css')}}">
-    <!-- Color CSS Styles (default website layout color) -->
-    <link rel="stylesheet" type="text/css" href="{{asset('css/colors/blue.css')}}" media="screen">
-
-    <!-- Google Font
-    @import url("https://fonts.googleapis.com/css?family=Rubik:500,700|Roboto:400,600");
-    -->
+    <title>BeeWorky | Home</title>
+    @include('partials.headbundle')
 </head>
 
 <body>
@@ -71,34 +41,25 @@
                             <ul id="nav" class="navbar-nav ml-auto">
                                 <li class="nav-item active">
                                     <a class="page-scroll" href="#">Home <span><i class="mdi mdi-chevron-down"></i></span></a>
-                                    <ul class="sub-menu">
-                                        <li class="nav-item"><a class="" href="index.html">Home V1</a></li>
-                                        <li class="nav-item"><a class="active" href="index-2.html">Home V2</a></li>
-                                    </ul>
                                 </li>
                                 <li class="nav-item">
                                     <a class="page-scroll" href="#">Over Ons <span><i class="mdi mdi-chevron-down"></i></span></a>
                                     <ul class="sub-menu">
-                                        <li class="nav-item"><a href="about-us.html">About Us 1</a></li>
+                                        <li class="nav-item"><a href="{{URL::to('/flexwerkers')}}">Flexwerkers</a></li>
+                                        <li class="nav-item"><a href="{{URL::to('/bedrijven')}}">Bedrijven</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
                                     <a class="page-scroll" href="#">Waar wij voor staan <span><i class="mdi mdi-chevron-down"></i></span></a>
-                                    <ul class="sub-menu">
-                                        <li class="nav-item"><a href="tab.html">Tabs</a></li>
-                                    </ul>
                                 </li>
                                 <li class="nav-item">
                                     <a class="page-scroll" href="#">Klussen <span><i class="mdi mdi-chevron-down"></i></span></a>
-                                    <ul class="sub-menu">
-                                        <li class="nav-item"><a href="portfolio-2.html">Portfolio 2 columns</a></li>
-                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="page-scroll" href="#">Blog <span><i class="mdi mdi-chevron-down"></i></span></a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="page-scroll" href="#">Contact <span><i class="mdi mdi-chevron-down"></i></span></a>
-                                    <ul class="sub-menu">
-                                        <li class="nav-item"><a href="blog.html">Blog Page</a></li>
-                                    </ul>
                                 </li>
                                 <li class="nav-item">
                                     <a class="page-scroll" href="#">Account <span><i class="mdi mdi-chevron-down"></i></span></a>
@@ -196,7 +157,7 @@
                 <div class="about-single">
                     <i class="material-icons mdi mdi-account-question"></i>
                     <h2 class="subtitle">1. Je hebt interesse</h2>
-                    <p>Je hebt interesse gekregen om een WorkBee te worden. Dat is goed! wij hebben veel te bieden.</p>
+                    <p>Je hebt interesse gekregen om een Workbee te worden. Dat is goed! Wij hebben veel te bieden.</p>
                 </div>
             </div>
             <!-- Single About -->
@@ -204,7 +165,7 @@
                 <div class="about-single">
                     <i class="material-icons mdi mdi-new-box"></i>
                     <h2 class="subtitle">2. Je meldt je aan</h2>
-                    <p>Je hebt je aangemeldt en bent nu een WorkBee 🐝, gefeliciteerd! 🥳</p>
+                    <p>Je hebt je aangemeldt en bent nu een Workbee 🐝, gefeliciteerd! 🥳</p>
                 </div>
             </div>
             <!-- Single About -->
@@ -220,7 +181,7 @@
                 <div class="about-single">
                     <i class="material-icons mdi mdi-finance"></i>
                     <h2 class="subtitle">4. Money!</h2>
-                    <p>Hier draait het natuurlijk allemaal om. Als WorkBee verdien je via BeeWorky
+                    <p>Hier draait het natuurlijk allemaal om. Als Workbee verdien je via BeeWorky
                         <strong>minimaal €16,-</strong> per uur</p>
                 </div>
             </div>
@@ -230,7 +191,7 @@
 <!-- About Section End -->
 
 <!-- Tabs Section -->
-<section class="material-tabs-section section-padding">
+<section class="material-tabs-section section-padding section-dark">
     <div class="container">
         <div class="row">
             <!-- Section Titile -->
@@ -266,7 +227,7 @@
                         <div class="tab-pane fade show active" id="home" role="tabpanel">
                             <div class="row">
                                 <div class="col-md-4">
-                                    <img src="{{asset('images\Logos\Beeldmerk\beeldmerk.bw.svg')}}" alt="">
+                                    <img src="{{asset('images\Logos\Beeldmerk\beeldmerk.bw.png')}}" alt="">
                                 </div>
                                 <div class="col-md-8">
                                     <h2 class="subtitle">Wat is BeeWorky?</h2>
@@ -279,8 +240,8 @@
                                         Tegelijkertijd staat de opdrachtnemer nooit stil, want bij BeeWorky wordt de nadruk gelegd op
                                         <strong>KWALITEIT</strong> en <strong>ONTWIKKELING</strong> en daarom bieden wij structureel gratis trainingen en workshops aan die
                                         een onderdeel vormen voor de BeeWorky community. <br><br>
-                                        So what are you waiting for? Meldt je nu kosteloos aan op de website en vindt jouw ideale opdracht!
-                                        Get Honey 🍯, #BeeWorky!</p>
+                                        So what are you waiting for? Meldt je nu kosteloos aan op de website en vindt jouw ideale opdracht! <br>
+                                        Get Honey 🍯, #BeeWorky</p>
                                 </div>
                             </div>
                         </div>
@@ -298,6 +259,12 @@
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, aut ut totam quam inventore
                                         suscipit ullam nostrum quisquam corrupti nesciunt voluptas necessitatibus, ab porro cupiditate
                                         optio mollitia, expedita, omnis? Quasi.</p>
+                                    <a href="{{URL::to('/flexwerkers')}}" class="animated4 btn-raised btn-success btn-lg">
+                                        <i class="material-icons mdi mdi-lightbulb-outline">
+                                        </i> Aan de slag
+                                        <div class="ripple-container">
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -315,6 +282,12 @@
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, aut ut totam quam inventore
                                         suscipit ullam nostrum quisquam corrupti nesciunt voluptas necessitatibus, ab porro cupiditate
                                         optio mollitia, expedita, omnis? Quasi.</p>
+                                    <a href="{{URL::to('/klussen')}}" class="animated4 btn-raised btn-success btn-lg">
+                                        <i class="material-icons mdi mdi-lightbulb-outline">
+                                        </i> Klussen
+                                        <div class="ripple-container">
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -332,6 +305,12 @@
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, aut ut totam quam inventore
                                         suscipit ullam nostrum quisquam corrupti nesciunt voluptas necessitatibus, ab porro cupiditate
                                         optio mollitia, expedita, omnis? Quasi.</p>
+                                    <a href="{{URL::to('/bedrijven')}}" class="animated4 btn-raised btn-success btn-lg">
+                                        <i class="material-icons mdi mdi-lightbulb-outline">
+                                        </i> Aan de slag
+                                        <div class="ripple-container">
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -349,6 +328,12 @@
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, aut ut totam quam inventore
                                         suscipit ullam nostrum quisquam corrupti nesciunt voluptas necessitatibus, ab porro cupiditate
                                         optio mollitia, expedita, omnis? Quasi.</p>
+                                    <a href="{{URL::to('/payrolling')}}" class="animated4 btn-raised btn-success btn-lg">
+                                        <i class="material-icons mdi mdi-lightbulb-outline">
+                                        </i> Aan de slag
+                                        <div class="ripple-container">
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -575,8 +560,208 @@
 </section>
 <!-- Portfolio Section End -->
 
+<!-- work-counter area -->
+<section class="work-counter-section section-padding">
+    <div class="container">
+        <div class="row">
+            <!-- Single Counter -->
+            <div class="col-md-3 col-sm-6 work-counter-widget text-center wow animated fadeInUp" data-wow-delay=".2s">
+                <div class="counter">
+                    <div class="icon"><i class="material-icons mdi mdi-check-all"></i></div>
+                    <div class="timer">32</div>
+                    <p>Voltooide Klussen</p>
+                </div>
+            </div>
+            <!-- Single Counter -->
+            <div class="col-md-3 col-sm-6 work-counter-widget text-center wow animated fadeInUp" data-wow-delay=".3s">
+                <div class="counter">
+                    <div class="icon"><i class="material-icons mdi mdi-clock"></i></div>
+                    <div class="timer">656</div>
+                    <p>Gewerkte Uren</p>
+                </div>
+            </div>
+            <!-- Single Counter -->
+            <div class="col-md-3 col-sm-6 work-counter-widget text-center wow animated fadeInUp" data-wow-delay=".4s">
+                <div class="counter">
+                    <div class="icon"><i class="material-icons mdi mdi-account-multiple-outline"></i></div>
+                    <div class="timer">35</div>
+                    <p>Workbees</p>
+                </div>
+            </div>
+            <!-- Single Counter -->
+            <div class="col-md-3 col-sm-6 work-counter-widget text-center wow animated fadeInUp" data-wow-delay=".5s">
+                <div class="counter">
+                    <div class="icon"><i class="material-icons mdi mdi-sticker-emoji"></i></div>
+                    <div class="timer">13</div>
+                    <p>Tevreden Klanten</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- work-counter area end -->
+
+<!-- Start Client Section -->
+<div class="client section-padding section-dark">
+    <div class="container">
+        <div class="row">
+            <div id="client-logo" class="owl-carousel">
+                <div class="client-logo item">
+                    <a href="#">
+                        <img class="img-fluid" src="" alt="" />
+                    </a>
+                </div>
+                <div class="client-logo item">
+                    <a href="#">
+                        <img class="img-fluid" src="https://preview.uideck.com/items/material/assets/images/clients/client1.png" alt="" />
+                    </a>
+                </div>
+                <div class="client-logo item">
+                    <a href="#">
+                        <img class="img-fluid" src="https://preview.uideck.com/items/material/assets/images/clients/client2.png" alt="" />
+                    </a>
+                </div>
+                <div class="client-logo item">
+                    <a href="#">
+                        <img class="img-fluid" src="https://preview.uideck.com/items/material/assets/images/clients/client3.png" alt="" />
+                    </a>
+                </div>
+                <div class="client-logo item">
+                    <a href="#">
+                        <img class="img-fluid" src="https://preview.uideck.com/items/material/assets/images/clients/client4.png" alt="" />
+                    </a>
+                </div>
+                <div class="client-logo item">
+                    <a href="#">
+                        <img class="img-fluid" src="https://preview.uideck.com/items/material/assets/images/clients/client1.png" alt="" />
+                    </a>
+                </div>
+                <div class="client-logo item">
+                    <a href="#">
+                        <img class="img-fluid" src="https://preview.uideck.com/items/material/assets/images/clients/client2.png" alt="" />
+                    </a>
+                </div>
+                <div class="client-logo item">
+                    <a href="#">
+                        <img class="img-fluid" src="https://preview.uideck.com/items/material/assets/images/clients/client4.png" alt="" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Client Section -->
+
+<!-- Our BLog Section -->
+<section class="Material-blog-section section-padding">
+    <div class="container">
+        <div class="row">
+            <!-- Section Titile -->
+            <div class="col-md-12 wow animated fadeInLeft" data-wow-delay=".2s">
+                <h1 class="section-title">Blog Posts</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Single Article -->
+            <div class="col-md-6 col-lg-4 col-xl-4 wow animated fadeInUp" data-wow-delay=".3s">
+                <article class="single-blog-post">
+                    <!-- Featured Image -->
+                    <div class="featured-image">
+                        <a href="#">
+                            <img src="assets/images/blog/featured1.jpg" alt="">
+                        </a>
+                    </div>
+                    <!-- Post Meta -->
+                    <div class="post-meta">
+                        <!-- Title -->
+                        <a href="blog-single.html">
+                            <h2 class="subtitle">12+ Amazing Growth Hacking Tips and Tricks</h2>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio perferendis assumenda ipsum maiores
+                            dolorum similique obcaecati perspiciatis.</p>
+                    </div>
+                    <div class="meta-tags">
+                        <span class="comments"><a href="#"><i class="mdi mdi-comment-outline"></i> 24 Comments</a></span>
+                        <!-- Read More -->
+                        <a class="btn btn-round btn-fab" href="blog-single.html"><i
+                                class="material-icons mdi mdi-arrow-right"></i>
+                            <div class="ripple-container"></div>
+                        </a>
+                    </div>
+                </article>
+            </div>
+            <!-- Single Article -->
+            <div class="col-md-6 col-lg-4 col-xl-4 wow animated fadeInUp" data-wow-delay=".4s">
+                <article class="single-blog-post">
+                    <!-- Featured Image -->
+                    <div class="featured-image">
+                        <a href="#">
+                            <img src="assets/images/blog/featured2.jpg" alt="">
+                        </a>
+                    </div>
+                    <!-- Post Meta -->
+                    <div class="post-meta">
+                        <!-- Title -->
+                        <a href="blog-single.html">
+                            <h2 class="subtitle">10 Tips to Validate Your Next Startup Idea</h2>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio perferendis assumenda ipsum maiores
+                            dolorum similique obcaecati perspiciatis.</p>
+                    </div>
+                    <div class="meta-tags">
+                        <span class="comments"><a href="#"><i class="mdi mdi-comment-outline"></i> 24 Comments</a></span>
+                        <!-- Read More -->
+                        <a class="btn btn-round btn-fab" href="blog-single.html"><i
+                                class="material-icons mdi mdi-arrow-right"></i>
+                            <div class="ripple-container"></div>
+                        </a>
+                    </div>
+                </article>
+            </div>
+            <!-- Single Article -->
+            <div class="col-md-6 col-lg-4 col-xl-4 wow animated fadeInUp" data-wow-delay=".5s">
+                <article class="single-blog-post">
+                    <!-- Featured Image -->
+                    <div class="featured-image">
+                        <a href="#">
+                            <img src="assets/images/blog/featured3.jpg" alt="">
+                        </a>
+                    </div>
+                    <!-- Post Meta -->
+                    <div class="post-meta">
+                        <!-- Title -->
+                        <a href="blog-single.html">
+                            <h2 class="subtitle">How to Create Successful Website for Your Agency</h2>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio perferendis assumenda ipsum maiores
+                            dolorum similique obcaecati perspiciatis.</p>
+                    </div>
+                    <div class="meta-tags">
+                        <span class="comments"><a href="#"><i class="mdi mdi-comment-outline"></i> 24 Comments</a></span>
+                        <!-- Read More -->
+                        <a class="btn btn-round btn-fab" href="blog-single.html"><i
+                                class="material-icons mdi mdi-arrow-right"></i>
+                            <div class="ripple-container"></div>
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </div>
+        <div class="row mt-5 wow animated fadeInUp" data-wow-delay=".6s">
+            <!-- Button -->
+            <div class="col-md-12 text-center">
+                <a href="{{URL::to('/socialcorner')}}" class="animated4 btn btn-common" data-ripple-color="#000"><i
+                        class="material-icons mdi mdi-library-books"></i> Check onze Social Corner<div class="ripple-container"></div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Our BLog Section End -->
+
 <!-- Contact Us Section -->
-<section class="Material-contact-section section-padding">
+<section class="Material-contact-section section-padding section-dark">
 
     <div class="container">
         <div class="row">
@@ -593,7 +778,7 @@
                     <div class="col-sm-6 wow fadeInUp animated" data-wow-delay=".2s">
                         <div class="single-contact-widget">
                             <i class="material-icons mdi mdi-map-marker"></i>
-                            <h3>Address</h3>
+                            <h3>Adres</h3>
                             <address>
                                 <p>4435 Berkshire Circle</p>
                                 <p>Knoxville</p>
@@ -605,7 +790,7 @@
                     <div class="col-sm-6 wow fadeInUp animated" data-wow-delay=".3s">
                         <div class="single-contact-widget">
                             <i class="material-icons mdi mdi-phone"></i>
-                            <h3>Phone</h3>
+                            <h3>Telefoon</h3>
                             <address>
                                 <p>879-890-9767</p>
                                 <p>234-890-1213</p>
@@ -618,8 +803,8 @@
                             <i class="material-icons mdi mdi-email-open"></i>
                             <h3>Email</h3>
                             <address>
-                                <p>mail@Material.com</p>
-                                <p>support@Material.com</p>
+                                <p>info@beeworky.nl</p>
+                                <p>support@Mbeeworky.nl</p>
                             </address>
                         </div>
                     </div>
@@ -627,7 +812,7 @@
                     <div class="col-sm-6 wow fadeInUp animated" data-wow-delay=".5s">
                         <div class="single-contact-widget">
                             <i class="material-icons mdi mdi-clock"></i>
-                            <h3>Opening Hours</h3>
+                            <h3>Openingstijden</h3>
                             <address>
                                 <p>Mon - Fri: 8 AM - 3 PM</p>
                                 <p>Sat: 8 AM - 12 PM</p>
@@ -643,7 +828,7 @@
                 <form class="shake" role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator">
                     <!-- Name -->
                     <div class="form-group label-floating">
-                        <label class="control-label" for="name">Name</label>
+                        <label class="control-label" for="name">Naam</label>
                         <input class="form-control" id="name" type="text" name="name" required
                                data-error="Please enter your name">
                         <div class="help-block with-errors"></div>
@@ -657,7 +842,7 @@
                     </div>
                     <!-- Subject -->
                     <div class="form-group label-floating">
-                        <label for="msgSubject" class="control-label">Subject</label>
+                        <label for="msgSubject" class="control-label">Onderwerp</label>
                         <input class="form-control" id="msg_subject" type="text" name="subject" required
                                data-error="Please enter your message subject">
                         <div class="help-block with-errors"></div>
@@ -672,7 +857,7 @@
                     <!-- Form Submit -->
                     <div class="form-submit mt-4">
                         <button class="btn btn-common" type="submit" id="form-submit"><i
-                                class="material-icons mdi mdi-message-outline"></i> Send Message</button>
+                                class="material-icons mdi mdi-message-outline"></i> Verstuur bericht</button>
                         <div id="msgSubmit" class="h3 text-center hidden"></div>
                         <div class="clearfix"></div>
                     </div>
@@ -690,188 +875,24 @@
         <div class="row justify-content-between">
             <div class="col-md-8 col-lg-8 col-xs-12 text-left wow animated fadeInLeft" data-wow-delay=".2s">
                 <h1>Chat live met ons!</h1>
-                <h3>Wij zijn te bereiken op FB Messenger.</h3>
+                <h3>En join de Workbee Facebook groep.</h3>
             </div>
             <div class="col-md-4 col-lg-4 col-xs-12 mt-4 text-right wow animated fadeInRight" data-wow-delay=".3s">
                 <a href="javascript:void(0)" class="animated4 btn btn-common"><i class="material-icons mdi mdi-phone"></i>
-                    Contact us</a>
+                    Join</a>
             </div>
+            <!-- Start facebook fab-->
+            <a href="javascript:void(0)" class="btn btn-info btn-fab wow animated fadeInRight" data-wow-delay=".3s">
+                <i class="material-icons mdi mdi-facebook-messenger">
+                </i>
+            </a>
+            <!-- END facebook fab -->
         </div>
     </div>
 </section>
 <!-- Call to action Section End -->
 
-<!--Footer-->
-<footer class="page-footer center-on-small-only  pt-0 footer-widget-container">
-    <!--Footer Links-->
-    <div class="container pt-5 mb-5">
-        <div class="row">
-            <!--First column-->
-            <div class="col-md-6 col-lg-3 col-xl-3 footer-contact-widget">
-                <h3 class="footer-title">Bedrijfsgegevens</h3>
-                <p><i class="mdi mdi-office-building"></i> KvK-nummer: <strong>77935535</strong>
-                    <br><i class="mdi mdi-map-marker"></i> Locatie: <strong>Amsterdam</strong>
-                    <br><i class="mdi mdi-email"></i> Email: <a href="mailto:info@beeworky.nl" class="nocolor">info@beeworky.nl</a>
-                </p>
-                <br><br>
-                <h3 class="footer-title">Reach out to us</h3>
-                <ul>
-                    <li>
-                        <a href="{{URL('https://www.linkedin.com/company/beeworky')}}"><i class="mdi mdi-linkedin"></i></a>
-                    </li>
-                    <li>
-                        <a href="{{URL('https://www.instagram.com/beeworky')}}"><i class="mdi mdi-instagram"></i></a>
-                    </li>
-                    <li>
-                        <a href="{{URL('https://www.facebook.com/BeeWorky')}}"><i class="mdi mdi-facebook"></i></a>
-                    </li>
-                    <li>
-                        <a href="{{URL('https://twitter.com/beeworky')}}"><i class="mdi mdi-twitter"></i></a>
-                    </li>
-{{--                    <li>--}}
-{{--                        <a href="{{URL('https://www.youtube.com/channel/UCkhiaCxssWiRm2L9t8a2I9Q')}}"><i class="mdi mdi-youtube"></i></a>--}}
-{{--                    </li>--}}
-                    <li>
-                        <a href="{{URL('https://wa.me/1XXXXXXXXXX')}}"><i class="mdi mdi-whatsapp"></i></a>
-                    </li>
-                </ul>
-            </div>
-            <!--/.First column-->
-
-            <!--Second column-->
-            <div class="col-md-6 col-lg-3 col-xl-3 recent-widget">
-                <h3 class="footer-title">Voor Flexwerkers</h3>
-                <ul class="image-list">
-                    <li>
-                        <figure class="overlay">
-                            <img class="img-fluid" src="assets/images/art/a1.jpg" alt="">
-                            <figcaption><a href="blog-single.html"><i class="mdi mdi-link-variant from-top icon-xs"></i></a>
-                            </figcaption>
-                        </figure>
-                        <div class="post-content">
-                            <h6 class="post-title"> <a href="blog-single.html">Fusce gravida tortor felis</a> </h6>
-                            <div class="meta"><span class="date">12 Jan 2019</span></div>
-                        </div>
-                    </li>
-                    <li>
-                        <figure class="overlay">
-                            <img class="img-fluid" src="assets/images/art/a2.jpg" alt="">
-                            <figcaption><a href="blog-single.html"><i class="mdi mdi-link-variant from-top icon-xs"></i></a>
-                            </figcaption>
-                        </figure>
-                        <div class="post-content">
-                            <h6 class="post-title"><a href="blog-single.html">Ornare Nullam Risus Cursus</a></h6>
-                            <div class="meta"><span class="date">12 Jan 2019</span></div>
-                        </div>
-                    </li>
-                    <li>
-                        <figure class="overlay">
-                            <img class="img-fluid" src="assets/images/art/a3.jpg" alt="">
-                            <figcaption><a href="blog-single.html"><i class="mdi mdi-link-variant from-top icon-xs"></i></a>
-                            </figcaption>
-                        </figure>
-                        <div class="post-content">
-                            <h6 class="post-title"> <a href="blog-single.html">Euismod Nullam Fusce Dapibus</a> </h6>
-                            <div class="meta"><span class="date">12 Jan 2019</span></div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <!--/.Second column-->
-
-            <!--Third column-->
-            <div class="col-md-6 col-lg-3 col-xl-3 link-widget">
-                <h3 class="footer-title">Voor Bedrijven</h3>
-                <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada
-                    magna mollis euismod. Praesent commodo cursus.</p>
-                <div class="mt-3"></div>
-                <ul class="icon-list">
-                    <li><i class="mdi mdi-map-marker"></i> 548 San Francisco, CA </li>
-                    <li><i class="mdi mdi-email"></i> <a href="mailto:mail@material.com" class="nocolor">mail@material.com</a>
-                    </li>
-                    <li><i class="mdi mdi-phone-classic"></i> +00 (123) 456 78 90 </li>
-                    <li><i class="mdi mdi-cellphone-iphone"></i> +00 (121) 455 47 54 </li>
-                </ul>
-            </div>
-            <!--/.Third column-->
-
-            <!--Fourth column-->
-            <div class="col-md-6 col-lg-3 col-xl-3 footer-contact">
-                <h3 class="footer-title">Nieuwsbrief</h3>
-                <div class="widget">
-                    <div class="newsletter-wrapper">
-                        <!-- subscribe-form start  -->
-                        <form
-                            action="https://beeworky.us19.list-manage.com/subscribe/post?u=d1a66409489d376e3aed8d11b&amp;id=4059db5f77"
-                            method="post" id="subscribe-form" name="subscribe-form"
-                            class="subscribe-form subscribe-form-1 validate wow fadeInDown" data-wow-delay=".6s"
-                            target="_blank" novalidate="">
-                            <div class="form-group">
-                            <input type="email" value="" name="EMAIL" class="email form-control required email" id="EMAIL"
-                                   placeholder="Typ hier je email adres" required="">
-
-                            <div id="mce-responses" class="clear">
-                                <div class="response" id="mce-error-response" style="display:none"></div>
-                                <div class="response" id="mce-success-response" style="display:none"></div>
-                            </div>
-
-                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input
-                                    type="text" name="b_4dbefd9d3a1d6a570020b1e85_e16d098ae8" tabindex="-1"
-                                    value=""></div>
-                            <button type="submit" name="subscribe" id="subscribe"
-                                     class="btn btn-common pull-right">Meld je aan!</button>
-                            </div>
-                        </form>
-                        <!-- subscribe-form end  -->
-                    </div>
-                </div>
-                <!-- /.widget -->
-                <div class="widget">
-                    <h5 class="widget-title">Handige Links</h5>
-                    <ul class="unordered-list">
-                        <li><a href="#" class="nocolor">Het ontstaan van BeeWorky</a></li>
-                        <li><a href="#" class="nocolor">Voorwaarden</a></li>
-                        <li><a href="#" class="nocolor">Privacy</a></li>
-                        <li><a href="#" class="nocolor">Disclaimer</a></li>
-                    </ul>
-                </div>
-            </div>
-            <!--/.Fourth column-->
-
-        </div>
-    </div>
-    <!--/.Footer Links-->
-
-    <!-- Copyright-->
-    <div class="footer-copyright">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <p class="copyright-text">Copyright &#9400; <script>document.write(new Date().getFullYear())</script> BeeWorky
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--/.Copyright -->
-
-</footer>
-<!--/.Footer-->
-
-<!-- Back To Top -->
-<a href="#" class="back-to-top">
-    <div class="ripple-container"></div>
-    <i class="mdi mdi-arrow-up">
-    </i>
-</a>
-
-<!-- Preloader -->
-<div id="preloader">
-    <div class="loader" id="loader-1"></div>
-</div>
-<!-- End Preloader -->
-
+@include('partials.footer')
 @include('partials.javascriptbundle')
 </body>
 </html>
