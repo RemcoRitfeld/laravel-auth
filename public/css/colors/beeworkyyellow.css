@@ -1,6 +1,6 @@
 /*You can add your won color also */
 a {
-    color: #F3D321;
+    color: #000000;
 }
 
 a:hover {
@@ -13,7 +13,7 @@ a:hover {
     background-color: #F3D321;
 }
 .subtitle{
-    color: #F3D321;
+    color: #000000;
 }
 .btn-common {
     background: #F3D321;
