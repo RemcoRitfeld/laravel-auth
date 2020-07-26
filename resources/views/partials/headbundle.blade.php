@@ -23,7 +23,7 @@
 <!-- Responsive CSS -->
 <link rel="stylesheet" href="{{secure_asset('css/responsive.css')}}">
 <!-- Color CSS Styles (default website layout color) -->
-<link rel="stylesheet" type="text/css" href="{{secure_asset('css/colors/beeworkyyellow.css.css')}}" media="screen">
+<link rel="stylesheet" type="text/css" href="{{secure_asset('css/colors/beeworkyyellow.css')}}" media="screen">
 
 <!-- Google Font
 @import url("https://fonts.googleapis.com/css?family=Rubik:500,700|Roboto:400,600");
