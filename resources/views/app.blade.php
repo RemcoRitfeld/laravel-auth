@@ -43,14 +43,10 @@
                                     <a class="page-scroll" href="#">Home <span><i class="mdi mdi-chevron-down"></i></span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="page-scroll" href="#">Over Ons <span><i class="mdi mdi-chevron-down"></i></span></a>
-                                    <ul class="sub-menu">
-                                        <li class="nav-item"><a href="{{URL::to('/flexwerkers')}}">Flexwerkers</a></li>
-                                        <li class="nav-item"><a href="{{URL::to('/bedrijven')}}">Bedrijven</a></li>
-                                    </ul>
+                                    <a class="page-scroll" href="#">Waar wij voor staan <span><i class="mdi mdi-chevron-down"></i></span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="page-scroll" href="#">Waar wij voor staan <span><i class="mdi mdi-chevron-down"></i></span></a>
+                                    <a class="page-scroll" href="{{URL::to('/bedrijven')}}">Bedrijven <span><i class="mdi mdi-chevron-down"></i></span></a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="page-scroll" href="#">Klussen <span><i class="mdi mdi-chevron-down"></i></span></a>
@@ -156,15 +152,15 @@
             <div class="col-sm-8 col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".2s">
                 <div class="about-single">
                     <i class="material-icons mdi mdi-account-question"></i>
-                    <h2 class="subtitle">1. Je hebt interesse</h2>
-                    <p>Je hebt interesse gekregen om een Workbee te worden. Dat is goed! Wij hebben veel te bieden.</p>
+                    <h2 class="subtitle">1. Op zoek naar werk?</h2>
+                    <p>Ben jij op zoek naar leuk en flexibel werk?. Dat is goed! Wij hebben veel te bieden.</p>
                 </div>
             </div>
             <!-- Single About -->
             <div class="col-sm-8 col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".3s">
                 <div class="about-single">
                     <i class="material-icons mdi mdi-new-box"></i>
-                    <h2 class="subtitle">2. Je meldt je aan</h2>
+                    <h2 class="subtitle">2. Meld je aan</h2>
                     <p>Je hebt je aangemeldt en bent nu een Workbee 🐝, gefeliciteerd! 🥳</p>
                 </div>
             </div>
@@ -172,8 +168,8 @@
             <div class="col-sm-8 col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".4s">
                 <div class="about-single">
                     <i class="material-icons mdi mdi-arrow-left-right"></i>
-                    <h2 class="subtitle">3. Je kiest een klus</h2>
-                    <p>Wij hebben een ruim aanbod aan klussen in de Horeca, Logistiek en in de Keuken.</p>
+                    <h2 class="subtitle">3. Kies een klus</h2>
+                    <p>Wij hebben een ruim aanbod aan klussen in de Horeca, Logistiek en in de Retail.</p>
                 </div>
             </div>
             <!-- Single About -->
@@ -181,7 +177,7 @@
                 <div class="about-single">
                     <i class="material-icons mdi mdi-finance"></i>
                     <h2 class="subtitle">4. Money!</h2>
-                    <p>Hier draait het natuurlijk allemaal om. Als Workbee verdien je via BeeWorky
+                    <p>Krijg betaalt waar jij recht op hebt!. Via BeeWorky verdien je
                         <strong>minimaal €16,-</strong> per uur</p>
                 </div>
             </div>
@@ -196,7 +192,7 @@
         <div class="row">
             <!-- Section Titile -->
             <div class="col-md-12 material-title-section wow animated fadeInLeft" data-wow-delay=".2s">
-                <h1 class="section-title">Over Ons</h1>
+                <h1 class="section-title">Over ons</h1>
             </div>
         </div>
 
@@ -204,23 +200,6 @@
             <div class="col-md-12">
                 <div class="Material-tab-default">
                     <!-- Nav tabs -->
-                    <ul class="nav nav-tabs text-center" id="myTab" role="tablist">
-                        <li class="nav-item">
-                            <a class="nav-link active" data-toggle="tab" href="#home" role="tab">BeeWorky</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" data-toggle="tab" href="#profile" role="tab">Flexwerkers</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" data-toggle="tab" href="#messages" role="tab">Klussen</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" data-toggle="tab" href="#settings" role="tab">Voor Bedrijven</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" data-toggle="tab" href="#payrolling" role="tab">Payrolling</a>
-                        </li>
-                    </ul>
 
                     <!-- Tab panes -->
                     <div class="tab-content">
@@ -252,13 +231,12 @@
                                 </div>
                                 <div class="col-md-8">
                                     <h2 class="subtitle">Wat is een Flexwerker?</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam nesciunt dolores quibusdam,
-                                        officia sed mollitia, illo, quis, vel veniam officiis qui repellendus. Perferendis et, veritatis
-                                        enim voluptatem libero consequuntur eveniet alias nesciunt fugit doloremque tempora id, impedit
-                                        sed earum voluptatum itaque at. Expedita impedit facere magnam commodi sed dolorem adipisci.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, aut ut totam quam inventore
-                                        suscipit ullam nostrum quisquam corrupti nesciunt voluptas necessitatibus, ab porro cupiditate
-                                        optio mollitia, expedita, omnis? Quasi.</p>
+                                    <p>Als flexwerker zit jij niet vast aan contracten maar bepaal jij wanneer jij wilt werken.
+                                        Het flexwerken is een nog nieuw begrip in Nederland maar neemt razendsnel toe in populariteit.
+                                        Het flexibele karakter in combinatie met  het variërend aanbod van potentiele klussen
+                                        zorgt ervoor dat dit de ideale oplossing is om snel aan de slag te gaan.
+                                    <br><br>
+                                    Stem je werk af op je leven en geniet je vrijheid.</p>
                                     <a href="{{URL::to('/flexwerkers')}}" class="animated4 btn-raised btn-success btn-lg">
                                         <i class="material-icons mdi mdi-lightbulb-outline">
                                         </i> Aan de slag
@@ -291,52 +269,6 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="settings" role="tabpanel">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <img src="assets/images/portfolio/work4.jpg" alt="">
-                                </div>
-                                <div class="col-md-8">
-                                    <h2 class="subtitle">Waarom BeeWorky voor jouw bedrijf?</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam nesciunt dolores quibusdam,
-                                        officia sed mollitia, illo, quis, vel veniam officiis qui repellendus. Perferendis et, veritatis
-                                        enim voluptatem libero consequuntur eveniet alias nesciunt fugit doloremque tempora id, impedit
-                                        sed earum voluptatum itaque at. Expedita impedit facere magnam commodi sed dolorem adipisci.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, aut ut totam quam inventore
-                                        suscipit ullam nostrum quisquam corrupti nesciunt voluptas necessitatibus, ab porro cupiditate
-                                        optio mollitia, expedita, omnis? Quasi.</p>
-                                    <a href="{{URL::to('/bedrijven')}}" class="animated4 btn-raised btn-success btn-lg">
-                                        <i class="material-icons mdi mdi-lightbulb-outline">
-                                        </i> Aan de slag
-                                        <div class="ripple-container">
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="payrolling" role="tabpanel">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <img src="assets/images/portfolio/work4.jpg" alt="">
-                                </div>
-                                <div class="col-md-8">
-                                    <h2 class="subtitle">Waarom Payrolling?</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam nesciunt dolores quibusdam,
-                                        officia sed mollitia, illo, quis, vel veniam officiis qui repellendus. Perferendis et, veritatis
-                                        enim voluptatem libero consequuntur eveniet alias nesciunt fugit doloremque tempora id, impedit
-                                        sed earum voluptatum itaque at. Expedita impedit facere magnam commodi sed dolorem adipisci.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, aut ut totam quam inventore
-                                        suscipit ullam nostrum quisquam corrupti nesciunt voluptas necessitatibus, ab porro cupiditate
-                                        optio mollitia, expedita, omnis? Quasi.</p>
-                                    <a href="{{URL::to('/payrolling')}}" class="animated4 btn-raised btn-success btn-lg">
-                                        <i class="material-icons mdi mdi-lightbulb-outline">
-                                        </i> Aan de slag
-                                        <div class="ripple-container">
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -363,8 +295,10 @@
                         <i class="material-icons pulse-shrink mdi mdi-arrange-send-backward"></i>
                     </div>
                     <div class="media-body">
-                        <h2 class="subtitle"><a href="#">Goed opgeleid & gewkalificeerd personeel</a></h2>
-                        <p>Excepteur sint occaecat cupi datat non proidt, sunt in culpa qui offi cia deserunt</p>
+                        <h2 class="subtitle"><a href="#">Goed Salaris!</a></h2>
+                        <p>Via BeeWorky verdien je
+                            <strong>minimaal €16,-</strong> per uur. Ook heb je onderhandelingsvrijheid met de
+                            opdrachtgever.</p>
                     </div>
                 </div>
             </div>
@@ -375,8 +309,8 @@
                         <i class="material-icons pulse-shrink mdi mdi-code-tags-check"></i>
                     </div>
                     <div class="media-body">
-                        <h2 class="subtitle"><a href="#">Goed Salaris!</a></h2>
-                        <p>Excepteur sint occaecat cupi datat non proidt, sunt in culpa qui offi cia deserunt</p>
+                        <h2 class="subtitle"><a href="#">Trainingen & Workshops</a></h2>
+                        <p>Volg <strong>gratis</strong> trainingen & workshops in de: Horeca, Logistiek en Retail. </p>
                     </div>
                 </div>
             </div>
@@ -387,8 +321,8 @@
                         <i class="material-icons pulse-shrink mdi mdi-grid"></i>
                     </div>
                     <div class="media-body">
-                        <h2 class="subtitle"><a href="#">Een Eerlijke werksfeer</a></h2>
-                        <p>Excepteur sint occaecat cupi datat non proidt, sunt in culpa qui offi cia deserunt</p>
+                        <h2 class="subtitle"><a href="#">Flexibiliteit</a></h2>
+                        <p>Werk wanneer en waar je wilt. Neem de regie in eigen hand!</p>
                     </div>
                 </div>
             </div>
@@ -400,7 +334,7 @@
                     </div>
                     <div class="media-body">
                         <h2 class="subtitle"><a href="#">Een leuke werksfeer</a></h2>
-                        <p>Excepteur sint occaecat cupi datat non proidt, sunt in culpa qui offi cia deserunt</p>
+                        <p>Werk bij de leukste werkgevers en wordt onderdeel van de BeeWorky communitie.</p>
                     </div>
                 </div>
             </div>
@@ -411,8 +345,8 @@
                         <i class="material-icons pulse-shrink mdi mdi-speedometer"></i>
                     </div>
                     <div class="media-body">
-                        <h2 class="subtitle"><a href="#">Trainingen & Workshops</a></h2>
-                        <p>Excepteur sint occaecat cupi datat non proidt, sunt in culpa qui offi cia deserunt</p>
+                        <h2 class="subtitle"><a href="#">Binnen no-time uitbetalingen</a></h2>
+                        <p>Bepaal zelf hoe snel jij uitbetaald wilt worden. Dit is al mogelijk binnen 3 werkdagen.</p>
                     </div>
                 </div>
             </div>
@@ -423,8 +357,9 @@
                         <i class="material-icons pulse-shrink mdi mdi-shape-plus"></i>
                     </div>
                     <div class="media-body">
-                        <h2 class="subtitle"><a href="#">Flexibiliteit</a></h2>
-                        <p>Excepteur sint occaecat cupi datat non proidt, sunt in culpa qui offi cia deserunt</p>
+                        <h2 class="subtitle"><a href="#">Ethische werksfeer</a></h2>
+                        <p>Wij maken <strong>geen</strong> onderscheid tussen gender, geaardheid, etniciteit en andere
+                        vormen van discriminatie.</p>
                     </div>
                 </div>
             </div>
@@ -576,7 +511,7 @@
             <div class="col-md-3 col-sm-6 work-counter-widget text-center wow animated fadeInUp" data-wow-delay=".3s">
                 <div class="counter">
                     <div class="icon"><i class="material-icons mdi mdi-clock"></i></div>
-                    <div class="timer">656</div>
+                    <div class="timer">217</div>
                     <p>Gewerkte Uren</p>
                 </div>
             </div>
@@ -584,7 +519,7 @@
             <div class="col-md-3 col-sm-6 work-counter-widget text-center wow animated fadeInUp" data-wow-delay=".4s">
                 <div class="counter">
                     <div class="icon"><i class="material-icons mdi mdi-account-multiple-outline"></i></div>
-                    <div class="timer">35</div>
+                    <div class="timer">107</div>
                     <p>Workbees</p>
                 </div>
             </div>
@@ -780,9 +715,9 @@
                             <i class="material-icons mdi mdi-map-marker"></i>
                             <h3>Adres</h3>
                             <address>
-                                <p>4435 Berkshire Circle</p>
-                                <p>Knoxville</p>
-                                <p>TN 27912</p>
+                                <p>Eerste Boerhaavestraat 33E</p>
+                                <p>1091 RZ</p>
+                                <p>Amsterdam</p>
                             </address>
                         </div>
                     </div>
@@ -792,8 +727,9 @@
                             <i class="material-icons mdi mdi-phone"></i>
                             <h3>Telefoon</h3>
                             <address>
-                                <p>879-890-9767</p>
-                                <p>234-890-1213</p>
+                                <p>+31610825684</p>
+                                <p>+31642285144</p>
+                                <p><em>Ook bereikbaar via WhatsApp</em></p>
                             </address>
                         </div>
                     </div>
@@ -804,7 +740,7 @@
                             <h3>Email</h3>
                             <address>
                                 <p>info@beeworky.nl</p>
-                                <p>support@Mbeeworky.nl</p>
+                                <p>support@beeworky.nl</p>
                             </address>
                         </div>
                     </div>
@@ -814,9 +750,7 @@
                             <i class="material-icons mdi mdi-clock"></i>
                             <h3>Openingstijden</h3>
                             <address>
-                                <p>Mon - Fri: 8 AM - 3 PM</p>
-                                <p>Sat: 8 AM - 12 PM</p>
-                                <p>Sun: Closed</p>
+                                <p>24/7 beschikbaar!</p>
                             </address>
                         </div>
                     </div>
@@ -849,7 +783,7 @@
                     </div>
                     <!-- Message -->
                     <div class="form-group label-floating">
-                        <label for="message" class="control-label">Message</label>
+                        <label for="message" class="control-label">Bericht</label>
                         <textarea class="form-control" rows="8" id="message" name="message" required
                                   data-error="Write your message"></textarea>
                         <div class="help-block with-errors"></div>
