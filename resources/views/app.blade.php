@@ -43,19 +43,19 @@
                                     <a class="page-scroll" href="#">Home <span><i class="mdi mdi-chevron-down"></i></span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="page-scroll" href="#">Waar wij voor staan <span><i class="mdi mdi-chevron-down"></i></span></a>
+                                    <a class="page-scroll" href="#waarwijvoorstaan">Waar wij voor staan <span><i class="mdi mdi-chevron-down"></i></span></a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="page-scroll" href="{{URL::to('/bedrijven')}}">Bedrijven <span><i class="mdi mdi-chevron-down"></i></span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="page-scroll" href="#">Klussen <span><i class="mdi mdi-chevron-down"></i></span></a>
+                                    <a class="page-scroll" href="#klussen">Klussen <span><i class="mdi mdi-chevron-down"></i></span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="page-scroll" href="#">Blog <span><i class="mdi mdi-chevron-down"></i></span></a>
+                                    <a class="page-scroll" href="#blog">Blog <span><i class="mdi mdi-chevron-down"></i></span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="page-scroll" href="#">Contact <span><i class="mdi mdi-chevron-down"></i></span></a>
+                                    <a class="page-scroll" href="#contact">Contact <span><i class="mdi mdi-chevron-down"></i></span></a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="page-scroll" href="#">Account <span><i class="mdi mdi-chevron-down"></i></span></a>
@@ -278,7 +278,7 @@
 <!-- Tabs Section End -->
 
 <!-- Services Section -->
-<section class="Material-service-section section-padding">
+<section class="Material-service-section section-padding" id="waarwijvoorstaan">
     <div class="container">
         <div class="row">
             <!-- Section Titile -->
@@ -369,7 +369,7 @@
 <!-- Services Section End -->
 
 <!-- Portfolio Section -->
-<section class="Material-portfolio-section section-padding section-dark">
+<section class="Material-portfolio-section section-padding section-dark" id="klussen">
     <div class="container">
         <div class="row">
             <!-- Section Titile -->
@@ -588,7 +588,7 @@
 <!-- End Client Section -->
 
 <!-- Our BLog Section -->
-<section class="Material-blog-section section-padding">
+<section class="Material-blog-section section-padding" id="blog">
     <div class="container">
         <div class="row">
             <!-- Section Titile -->
@@ -696,8 +696,7 @@
 <!-- Our BLog Section End -->
 
 <!-- Contact Us Section -->
-<section class="Material-contact-section section-padding section-dark">
-
+<section class="Material-contact-section section-padding section-dark" id="contact">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
