@@ -41,7 +41,7 @@
                 <ul>
                     <li><a class="text-white" href="{{URL('/flexwerkers')}}">Zo werkt BeeWorky</a></li>
                     <li><a class="text-white" href="{{URL('/klussen')}}">Klussen zoeken</a></li>
-                    <li><a class="text-white" href="{{URL('/academy')}}">Workbee Academy</a></li>
+                    <li><a class="text-white" href="{{URL('/academy')}}">BeeWorky Academy</a></li>
                     <li><a class="text-white" href="{{URL('/support')}}">Helpdesk</a></li>
                 </ul>
             </div>

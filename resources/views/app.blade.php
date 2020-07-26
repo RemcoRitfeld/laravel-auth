@@ -52,12 +52,6 @@
                                     <a class="page-scroll" href="#klussen">Klussen <span><i class="mdi mdi-chevron-down"></i></span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="page-scroll" href="#blog">Blog <span><i class="mdi mdi-chevron-down"></i></span></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="page-scroll" href="#contact">Contact <span><i class="mdi mdi-chevron-down"></i></span></a>
-                                </li>
-                                <li class="nav-item">
                                     <a class="page-scroll" href="#">Account <span><i class="mdi mdi-chevron-down"></i></span></a>
                                     <ul class="sub-menu left-menu">
                                         <li class="nav-item"><a href="{{URL::to('/login')}}">Login</a></li>
