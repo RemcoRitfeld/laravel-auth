@@ -106,7 +106,7 @@
                     </div>
                     <div class="media-body">
                         <h2 class="subtitle"><a href="#">Gekwalificeerd personeel</a></h2>
-                        <p>Excepteur sint occaecat cupi datat non proidt, sunt in culpa qui offi cia deserunt</p>
+                        <p>Garantie over de vakbewkaamheid van het personeel.</p>
                     </div>
                 </div>
             </div>
@@ -119,7 +119,7 @@
                     </div>
                     <div class="media-body">
                         <h2 class="subtitle"><a href="#">Toegang tot de talentenpool</a></h2>
-                        <p>Excepteur sint occaecat cupi datat non proidt, sunt in culpa qui offi cia deserunt</p>
+                        <p>Toegang tot onze database met in-house getrainde flexwerkers.</p>
                     </div>
                 </div>
             </div>
@@ -132,7 +132,7 @@
                     </div>
                     <div class="media-body">
                         <h2 class="subtitle"><a href="#">Flexibel personeel inhuren</a></h2>
-                        <p>Excepteur sint occaecat cupi datat non proidt, sunt in culpa qui offi cia deserunt</p>
+                        <p>Bekijk profielen met reviews en plan zelf een flexwerker in.</p>
                     </div>
                 </div>
             </div>
@@ -145,7 +145,7 @@
                     </div>
                     <div class="media-body">
                         <h2 class="subtitle"><a href="#">24/7 mogelijkheid om klussen te plaatsen</a></h2>
-                        <p>Excepteur sint occaecat cupi datat non proidt, sunt in culpa qui offi cia deserunt</p>
+                        <p>Op het BeeWorky platform is het 24/7 mogelijk om klussen te plaatsen.</p>
                     </div>
                 </div>
             </div>
@@ -158,7 +158,8 @@
                     </div>
                     <div class="media-body">
                         <h2 class="subtitle"><a href="#">Gratis personeel overnemen</a></h2>
-                        <p>Excepteur sint occaecat cupi datat non proidt, sunt in culpa qui offi cia deserunt</p>
+                        <p>Indien u zelfstandig verder wilt met een flexwerker die via het BeeWorky platform verworven is,
+                        betaalt u geen overname-kosten.</p>
                     </div>
                 </div>
             </div>
@@ -171,7 +172,7 @@
                     </div>
                     <div class="media-body">
                         <h2 class="subtitle"><a href="#">Eigen talentenpool samenstellen</a></h2>
-                        <p>Excepteur sint occaecat cupi datat non proidt, sunt in culpa qui offi cia deserunt</p>
+                        <p>Stel uw eigen talentpool samen met uw favoriete flexwerkers.</p>
                     </div>
                 </div>
             </div>
@@ -209,10 +210,10 @@
                                 <p><strong>10</strong> Klussen</p>
                             </li>
                             <li>
-                                <p><strong>Limited</strong> Projects</p>
+                                <p><strong>1</strong> Locatie</p>
                             </li>
                             <li>
-                                <p><strong>2GB</strong> Storage</p>
+                                <p><strong>1</strong> Flexpool</p>
                             </li>
                         </ul>
                     </div>
@@ -243,13 +244,13 @@
                     <div class="pricing-item">
                         <ul>
                             <li>
-                                <p><strong>2</strong> User</p>
+                                <p><strong>20</strong> Klussen</p>
                             </li>
                             <li>
-                                <p><strong>Unlimited</strong> Projects</p>
+                                <p><strong>3</strong> Locaties</p>
                             </li>
                             <li>
-                                <p><strong>20GB</strong> Storage</p>
+                                <p><strong>3</strong> Flexpools</p>
                             </li>
                         </ul>
                     </div>
@@ -279,13 +280,13 @@
                     <div class="pricing-item">
                         <ul>
                             <li>
-                                <p><strong>20</strong> User</p>
+                                <p><strong>35</strong> Klussen</p>
                             </li>
                             <li>
-                                <p><strong>Unlimited</strong> Projects</p>
+                                <p><strong>5</strong> Locaties</p>
                             </li>
                             <li>
-                                <p><strong>200GB</strong> Storage</p>
+                                <p><strong>5</strong> Flexpools</p>
                             </li>
                         </ul>
                     </div>
@@ -315,13 +316,13 @@
                     <div class="pricing-item">
                         <ul>
                             <li>
-                                <p><strong>20</strong> User</p>
+                                <p><strong>Onbeperkt</strong> Klussen</p>
                             </li>
                             <li>
-                                <p><strong>Unlimited</strong> Projects</p>
+                                <p><strong>Onbeperkt</strong> Locaties</p>
                             </li>
                             <li>
-                                <p><strong>200GB</strong> Storage</p>
+                                <p><strong>Onbeperkt</strong> Flexpools</p>
                             </li>
                         </ul>
                     </div>
