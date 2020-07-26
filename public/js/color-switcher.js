@@ -12,12 +12,12 @@ jQuery(document).ready(function($) {
 	$("ul.colors .color1" ).click(function(){
 		$("#colors" ).attr("href", "assets/css/colors/indigo.css" );
 		return false;
-	});	
+	});
 
 	$("ul.colors .color2" ).click(function(){
 		$("#colors" ).attr("href", "assets/css/colors/pink.css" );
 		return false;
-	});	
+	});
 
 	$("ul.colors .color3" ).click(function(){
 		$("#colors" ).attr("href", "assets/css/colors/purple.css" );
@@ -32,7 +32,7 @@ jQuery(document).ready(function($) {
 	$("ul.colors .color5" ).click(function(){
 		$("#colors" ).attr("href", "assets/css/colors/blue.css" );
 		return false;
-	});	
+	});
 
 	$("ul.colors .color6" ).click(function(){
 		$("#colors" ).attr("href", "assets/css/colors/red.css" );
@@ -46,6 +46,10 @@ jQuery(document).ready(function($) {
 		$("#colors" ).attr("href", "assets/css/colors/yellow.css" );
 		return false;
 	});
+    $("ul.colors .color9" ).click(function(){
+        $("#colors" ).attr("href", "assets/css/colors/beeworkyyellow.css" );
+        return false;
+    });
 
 	$("#color-style-switcher .bottom a.settings").click(function(e){
 		e.preventDefault();
@@ -53,7 +57,7 @@ jQuery(document).ready(function($) {
 		if (div.css("left") === "-189px") {
 			$("#color-style-switcher").animate({
 				left: "0px"
-			}); 
+			});
 		} else {
 			$("#color-style-switcher").animate({
 				left: "-189px"
@@ -73,14 +77,14 @@ jQuery(document).ready(function($) {
 
 //Inject Necessary Styles and HTML
 jQuery('head').append('<link rel="stylesheet" id="colors" href="assets/css/colors/indigo.css" type="text/css" />');
-jQuery('head').append('<link rel="stylesheet" href="assets/css/color-switcher.css" type="text/css" />'); 
+jQuery('head').append('<link rel="stylesheet" href="assets/css/color-switcher.css" type="text/css" />');
 
-jQuery('body').append('' + 
+jQuery('body').append('' +
 	'<div id="color-style-switcher">' +
-		'<div>' + 
+		'<div>' +
 			'<h3>Colors</h3>' +
 			'<ul class="colors">' +
-				'<li><a class="color1 active" href="#"></a></li>' +				
+				'<li><a class="color1 active" href="#"></a></li>' +
 				'<li><a class="color2" href="#"></a></li>' +
 				'<li><a class="color3" href="#"></a></li>' +
 				'<li><a class="color4" href="#"></a></li>' +
@@ -88,6 +92,7 @@ jQuery('body').append('' +
 				'<li><a class="color6" href="#"></a></li>' +
 				'<li><a class="color7" href="#"></a></li>' +
 				'<li><a class="color8" href="#"></a></li>' +
+                '<li><a class="color9" href="#"></a></li>' +
 			'</ul>' +
 		'</div>' +
 		'<div class="bottom"> <a href="#" class="settings"><i class="mdi mdi-cog"></i></a> </div>' +
