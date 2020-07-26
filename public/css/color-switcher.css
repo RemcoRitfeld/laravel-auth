@@ -6,7 +6,7 @@
     margin: 0 0 15px;
     text-transform: uppercase;
 }
-#color-style-switcher { 
+#color-style-switcher {
     text-align: center;
     background-color: rgba(0,0,0, 0.8);
     border-radius: 0 0 3px;
@@ -81,7 +81,7 @@ ul.colors li a.active:after {
 }
 ul.colors li a.color1.active:after, ul.colors li a.color8.active:after{
     color:#FFFFFF;
-} 
+}
 
 @media only screen and (max-width: 500px) {
     #color-style-switcher {
@@ -97,26 +97,32 @@ ul.colors li a.color1.active:after, ul.colors li a.color8.active:after{
 
 /* light-version */
 ul.colors .color1 {
-    background: #3F51B5;    
+    background: #3F51B5;
 }
 ul.colors .color2 {
-    background: #ed145b; 
+    background: #ed145b;
 }
 ul.colors .color3 {
-     background: #FF5274 ; 
+     background: #FF5274 ;
 }
 ul.colors .color4 {
-     background: #7C4DFF;  
+     background: #7C4DFF;
 }
 ul.colors .color5 {
-     background: #2196F3; 
+     background: #2196F3;
 }
 ul.colors .color6 {
-     background: #e53935; 
+     background: #e53935;
 }
 ul.colors .color7 {
-     background: #4CAF50; 
+     background: #4CAF50;
 }
 ul.colors .color8 {
-     background: #FB8C00;  
+     background: #FB8C00;
 }
+
+ul.colors .color9 {
+    background: #F3D321;
+}
+
+

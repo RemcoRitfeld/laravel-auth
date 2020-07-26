@@ -1,0 +1,222 @@
+/*You can add your won color also */
+a {
+    color: #F3D321;
+}
+
+a:hover {
+    color: #e07d01;
+}
+.section-titile-bg {
+    color: #F3D321;
+}
+.section-title::before{
+    background-color: #F3D321;
+}
+.subtitle{
+    color: #F3D321;
+}
+.btn-common {
+    background: #F3D321;
+}
+
+.btn-common:hover, .btn-common:focus {
+    background: #e07d01 !important;
+}
+
+.btn-round {
+    background: #F3D321 !important;
+}
+
+.btn-round:hover {
+    background: #e07d01 !important;
+}
+
+/* ScrollToTop */
+a.back-to-top i {
+    background-color: #F3D321;
+}
+
+
+.slicknav_btn{
+    border-color: #F3D321;
+}
+.slicknav_menu .slicknav_icon-bar{
+    background: #F3D321;
+}
+.slicknav_menu .slicknav_icon-bar:hover{
+    background: #F3D321;
+}
+.navbar li.active a.nav-link{
+    color: #F3D321!important;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #F3D321!important;
+}
+.dropdown .dropdown-item:focus, .dropdown .dropdown-item:hover{
+    color: #F3D321;
+}
+.dropdown .dropdown-menu .dropdown-item.active, .dropdown .dropdown-menu .dropdown-item:active{
+    color: #F3D321;
+    background-color: #fafafa;
+}
+.work-counter-widget i {
+    color: #F3D321;
+}
+.portfolio-nav ul.nav li a:hover,
+.portfolio-nav ul.nav li a.active{
+    background: #F3D321;
+}
+.about-single i {
+    color: #F3D321;
+}
+
+.about-single:hover i {
+    background: #F3D321;
+}
+.Material-tab ul.nav.nav-tabs li .active{
+    background: #F3D321 !important;
+}
+.single-blog-post .post-meta a:hover {
+    color: #F3D321;
+}
+
+.contact-widget-section .single-contact-widget i {
+    color: #F3D321;
+}
+
+.single-service-widget i {
+    color: #F3D321;
+}
+.testimonials-carousel .owl-dots .owl-dot.active {
+    background: #F3D321;
+}
+
+.form-submit button.btn-common.disabled {
+    background: #F3D321 !important;
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.owl-carousel .owl-dots .owl-dot.active {
+    border: none;
+    background: #F3D321 !important;
+    opacity: 1;
+}
+
+.Material-tab-default ul.nav.nav-tabs li.active a {
+    color: #F3D321;
+}
+
+.Material-default-accordion .panel-default .panel-heading a {
+    background-color: #F3D321;
+}
+
+.icon-round, .icon-box {
+    background: #F3D321;
+}
+
+.icon-common {
+    color: #F3D321;
+}
+
+.price span {
+    color: #F3D321;
+}
+
+.pricing-button a.btn-pricing {
+    background-color: #F3D321;
+}
+
+.Material-error-section h1 {
+    color: #F3D321;
+}
+
+.comment-box .form-control, .comment-box textarea {
+    font-weight: 500;
+    color: #F3D321;
+}
+
+.find-widget {
+    padding: 10px 0;
+}
+
+.find-widget i {
+    background: #F3D321;
+}
+.footer-widget-container{
+    border-top: 4px solid #F3D321;
+}
+ul.footer-contact li span{
+    background: #F3D321;
+}
+.footer-contact ul li i{
+    background: #F3D321;
+    border-color: #F3D321;
+}
+.page-footer .link-widget ul li a:hover{
+    color: #F3D321;
+}
+.page-footer .recent-widget p a:hover{
+    color: #F3D321;
+}
+
+.form-group.is-focused .form-control {
+    outline: 0;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#F3D321), to(#F3D321)),
+    -webkit-gradient(linear, left top, left bottom, from(#D2D2D2), to(#D2D2D2));
+    background-image: -webkit-linear-gradient(#F3D321, #F3D321), -webkit-linear-gradient(#D2D2D2, #D2D2D2);
+    background-image: -o-linear-gradient(#F3D321, #F3D321), -o-linear-gradient(#D2D2D2, #D2D2D2);
+    background-image: linear-gradient(#F3D321, #F3D321), linear-gradient(#D2D2D2, #D2D2D2);
+}
+.page-footer .footer-title::before{
+    background: #F3D321;
+}
+.page-footer .image-list .post-content .post-title a:hover{
+    color: #F3D321;
+}
+.page-footer .widget .unordered-list li a:hover{
+    color: #F3D321;
+}
+.features-block .media-left i{
+    background: #F3D321;
+}
+.blog-sidebar-column .single-sidebar-widget .sidebar-widget-title{
+    background: #F3D321;
+}
+.blog-sidebar-column .categories-list li a:hover{
+    color: #F3D321;
+}
+.Material-tab-default .nav-tabs .nav-item.show .nav-link, .Material-tab-default .nav-tabs .nav-link.active{
+    color: #F3D321 !important;
+}
+.tabs-style-2 .nav-pills .nav-link.active, .tabs-style-2 .nav-pills .show>.nav-link{
+    color: #F3D321;
+}
+.pricing-table-3 .table-header{
+    background: #F3D321;
+}
+.owl-theme .owl-buttons div{
+    background: #F3D321!important;
+}
+
+
+.sub-menu li a:hover {
+    background: #F3D321;
+}
+
+.navbar-nav .sub-menu li a:hover,
+.navbar-nav .nav-item>a:hover,
+.navbar-nav .nav-item.active>a {
+    color: #F3D321;
+}
+
+.navbar-nav .nav-item.active a.active:hover,
+.navbar-nav .nav-item.active a.active {
+    color: white;
+    background: #F3D321;
+}
+
+.navbar-nav .sub-menu li a:hover,
+.navbar-nav .nav-item a:hover {
+    color: #F3D321;
+}
