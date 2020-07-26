@@ -8,7 +8,7 @@
                 <h3 class="footer-title">Bedrijfsgegevens</h3>
                 <p><i class="mdi mdi-office-building"></i> KvK-nummer: <strong>77935535</strong>
                     <br><i class="mdi mdi-map-marker"></i> Locatie: <strong>Amsterdam</strong>
-                    <br><i class="mdi mdi-email"></i> Email: <a href="mailto:info@beeworky.nl" class="nocolor">info@beeworky.nl</a>
+                    <br><i class="mdi mdi-email"></i> Email: <a href="mailto:info@beeworky.nl" class="text-white">info@beeworky.nl</a>
                 </p>
                 <br><br>
                 <h3 class="footer-title">Reach out to us</h3>
